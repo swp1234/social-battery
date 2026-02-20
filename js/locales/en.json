@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "title": "Social Battery Test | What's Your Social Energy? - DopaBrain",
+    "description": "Measure your social battery level with 10 questions. Discover your social energy type, ideal social-to-alone ratio, and recharge methods."
+  },
+  "a11y": {
+    "skip": "Skip to main content"
+  },
+  "app": {
+    "title": "Social Battery Test",
+    "subtitle": "Social Battery Test",
+    "heroTitle": "What's Your Social Battery at?",
+    "heroDesc": "10 questions to discover your social energy level and type.",
+    "start": "🔋 Start Test"
+  },
+  "intro": {
+    "chipQuestions": "10 Questions",
+    "chipTime": "~2 Minutes",
+    "chipTypes": "4 Types",
+    "typeSolar": "Solar Panel",
+    "typeRechargeable": "Rechargeable",
+    "typeSaver": "Energy Saver",
+    "typeEmergency": "Emergency Mode",
+    "disclaimer": "⚠️ This test is for fun and is not a clinical diagnosis."
+  },
+  "questions": {
+    "q1": {
+      "text": "You're at a party and having a great time. How long before you want to leave?",
+      "options": {
+        "a": "I could stay all night! My energy just keeps going",
+        "b": "3-4 hours is my sweet spot",
+        "c": "1-2 hours is plenty, then I'm ready to slip out",
+        "d": "30 minutes max... honestly I was tired before I arrived"
+      }
+    },
+    "q2": {
+      "text": "Your friend cancels plans last minute. Your honest reaction?",
+      "options": {
+        "a": "Bummed! I immediately text someone else to hang out",
+        "b": "A bit disappointed, but we'll meet another time",
+        "c": "Secretly relieved while enjoying my sudden free time",
+        "d": "Internal celebration! Unexpected alone time is the best gift"
+      }
+    },
+    "q3": {
+      "text": "After a full day of meetings, you...",
+      "options": {
+        "a": "Call friends to vent and recharge through socializing",
+        "b": "A casual dinner with someone sounds nice",
+        "c": "Head straight home for some quiet time",
+        "d": "Turn off all notifications and become invisible"
+      }
+    },
+    "q4": {
+      "text": "Your ideal weekend looks like...",
+      "options": {
+        "a": "Packed with friends, parties, and outdoor activities",
+        "b": "One day social, one day relaxing at home",
+        "c": "Mostly alone with maybe one short meetup",
+        "d": "48 hours of perfect, uninterrupted solitude"
+      }
+    },
+    "q5": {
+      "text": "The group chat is blowing up with messages. You...",
+      "options": {
+        "a": "Jump right in and keep the conversation going",
+        "b": "React occasionally and follow along",
+        "c": "Read silently, only reply when directly asked",
+        "d": "Mute it and check later... maybe tomorrow"
+      }
+    },
+    "q6": {
+      "text": "You're invited to a networking event full of strangers.",
+      "options": {
+        "a": "Exciting! A chance to meet new people",
+        "b": "I'd go if a friend comes with me",
+        "c": "I'll show up out of obligation but leave early",
+        "d": "Politely decline and stay home, thanks"
+      }
+    },
+    "q7": {
+      "text": "You're working at a cafe and spot someone you know.",
+      "options": {
+        "a": "Invite them over for a long, fun chat",
+        "b": "Say a quick hello and have a brief chat",
+        "c": "Give a short wave and get back to work",
+        "d": "Hide behind my laptop before they notice me"
+      }
+    },
+    "q8": {
+      "text": "You're going on a week-long trip. Who do you bring?",
+      "options": {
+        "a": "A whole group of friends — the more the merrier!",
+        "b": "One or two close friends is perfect",
+        "c": "Solo, but open to meeting locals",
+        "d": "Completely alone with my own schedule and freedom"
+      }
+    },
+    "q9": {
+      "text": "When your energy is totally drained, the best recharge is...",
+      "options": {
+        "a": "Going out with my favorite people",
+        "b": "A cozy hangout with a small group",
+        "c": "Diving into a solo hobby",
+        "d": "Doing absolutely nothing in complete silence"
+      }
+    },
+    "q10": {
+      "text": "How much 'reset time' do you need after social activities?",
+      "options": {
+        "a": "Almost none — I'm ready for the next thing!",
+        "b": "A few hours and I'm good to go",
+        "c": "I need a full day to myself",
+        "d": "Several days of alone time to fully recover"
+      }
+    }
+  },
+  "quiz": {
+    "prev": "Previous",
+    "next": "Next",
+    "finish": "See Results"
+  },
+  "charging": {
+    "text": "Measuring battery level..."
+  },
+  "types": {
+    "solarPanel": {
+      "name": "☀️ Solar Panel",
+      "desc": "You're a social powerhouse that charges up around people! Conversations and gatherings are your fuel — being alone actually drains you.",
+      "ratio": "Social 70% : Alone 30%",
+      "recharge": "Lively conversations with friends, parties, group activities, meeting new people",
+      "compatible": ["Rechargeable Battery", "Solar Panel"]
+    },
+    "rechargeable": {
+      "name": "🔋 Rechargeable Battery",
+      "desc": "You strike the perfect balance between social time and alone time! You flexibly manage your energy based on the situation.",
+      "ratio": "Social 50% : Alone 50%",
+      "recharge": "Small gatherings, deep talks with close friends, café time, light outdoor activities",
+      "compatible": ["Solar Panel", "Energy Saver"]
+    },
+    "energySaver": {
+      "name": "🔌 Energy Saver",
+      "desc": "An efficient introvert who wisely manages their energy! You prefer deep connections with a few people and truly recharge in solitude.",
+      "ratio": "Social 30% : Alone 70%",
+      "recharge": "Reading, solo walks, listening to music, hobbies, resting in quiet spaces",
+      "compatible": ["Rechargeable Battery", "Emergency Mode"]
+    },
+    "emergency": {
+      "name": "🪫 Emergency Mode",
+      "desc": "An ultra-sensitive energy detector! Social situations drain your battery fast, and deep, meaningful alone time is absolutely essential.",
+      "ratio": "Social 15% : Alone 85%",
+      "recharge": "Complete silence, nature walks, meditation, creative activities, digital detox",
+      "compatible": ["Energy Saver", "Emergency Mode"]
+    }
+  },
+  "result": {
+    "details": "Detailed Results",
+    "batteryLevel": "Battery Level",
+    "socialRatio": "Ideal Social:Alone Ratio",
+    "rechargeMethod": "Recommended Recharge",
+    "compatible": "Compatible Types",
+    "compatibleTypes": "Best Matches",
+    "retake": "🔋 Take Again"
+  },
+  "share": {
+    "twitter": "Twitter",
+    "copyUrl": "📋 Copy Link",
+    "copied": "Copied!",
+    "twitterText": "My social battery is at {percent}%! Type: {type} 🔋 What's your social battery?"
+  },
+  "nav": {
+    "back": "Back"
+  }
+}

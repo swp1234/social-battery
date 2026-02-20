@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "title": "Sozialakku-Test | Wie viel soziale Energie hast du? - DopaBrain",
+    "description": "Miss deinen Sozialakku-Stand mit 10 Fragen. Entdecke deinen sozialen Energietyp, dein ideales Verhältnis von Gesellschaft und Alleinsein sowie Auflademethoden."
+  },
+  "a11y": {
+    "skip": "Zum Hauptinhalt springen"
+  },
+  "app": {
+    "title": "Sozialakku-Test",
+    "subtitle": "Social Battery Test",
+    "heroTitle": "Auf wie viel % steht dein Sozialakku?",
+    "heroDesc": "10 Fragen, um dein soziales Energielevel und deinen Typ zu entdecken.",
+    "start": "🔋 Test starten"
+  },
+  "intro": {
+    "chipQuestions": "10 Fragen",
+    "chipTime": "~2 Minuten",
+    "chipTypes": "4 Typen",
+    "typeSolar": "Solarpanel",
+    "typeRechargeable": "Aufladbarer Akku",
+    "typeSaver": "Energiesparmodus",
+    "typeEmergency": "Notfallmodus",
+    "disclaimer": "⚠️ Dieser Test dient der Unterhaltung und ist keine klinische Diagnose."
+  },
+  "questions": {
+    "q1": {
+      "text": "Du bist auf einer Party und hast richtig Spaß. Wie lange, bis du gehen willst?",
+      "options": {
+        "a": "Ich könnte die ganze Nacht bleiben! Meine Energie hört nicht auf",
+        "b": "3-4 Stunden sind perfekt für mich",
+        "c": "1-2 Stunden reichen, dann will ich mich davonschleichen",
+        "d": "30 Minuten maximal... ehrlich gesagt war ich schon müde, bevor ich kam"
+      }
+    },
+    "q2": {
+      "text": "Dein Freund/deine Freundin sagt kurzfristig ab. Deine ehrliche Reaktion?",
+      "options": {
+        "a": "Schade! Ich schreibe sofort jemand anderem",
+        "b": "Etwas enttäuscht, aber wir treffen uns ein anderes Mal",
+        "c": "Heimlich erleichtert, während ich meine freie Zeit genieße",
+        "d": "Innere Feier! Unerwartete Alleinzeit ist das beste Geschenk"
+      }
+    },
+    "q3": {
+      "text": "Nach einem ganzen Tag voller Meetings...",
+      "options": {
+        "a": "Rufe Freunde an, um durch Geselligkeit aufzutanken",
+        "b": "Ein lockeres Abendessen mit jemandem klingt nett",
+        "c": "Gehe direkt nach Hause zum ruhigen Entspannen",
+        "d": "Schalte alle Benachrichtigungen aus und werde unsichtbar"
+      }
+    },
+    "q4": {
+      "text": "Dein ideales Wochenende sieht so aus...",
+      "options": {
+        "a": "Voll mit Freunden, Partys und Outdoor-Aktivitäten",
+        "b": "Ein Tag sozial, ein Tag entspannt zu Hause",
+        "c": "Größtenteils allein, vielleicht ein kurzes Treffen",
+        "d": "48 Stunden perfekte, ununterbrochene Einsamkeit"
+      }
+    },
+    "q5": {
+      "text": "Der Gruppenchat explodiert vor Nachrichten. Du...",
+      "options": {
+        "a": "Steige sofort ein und halte das Gespräch am Laufen",
+        "b": "Reagiere gelegentlich und verfolge den Verlauf",
+        "c": "Lese still mit, antworte nur wenn direkt gefragt",
+        "d": "Schalte stumm und schaue später... vielleicht morgen"
+      }
+    },
+    "q6": {
+      "text": "Du wirst zu einem Networking-Event mit lauter Fremden eingeladen.",
+      "options": {
+        "a": "Super! Eine Chance, neue Leute kennenzulernen",
+        "b": "Ich würde gehen, wenn ein Freund mitkommt",
+        "c": "Gehe aus Pflichtgefühl, aber verlasse es früh",
+        "d": "Lehne höflich ab und bleibe zu Hause, danke"
+      }
+    },
+    "q7": {
+      "text": "Du arbeitest im Café und entdeckst jemanden, den du kennst.",
+      "options": {
+        "a": "Lade ihn/sie ein für ein langes, nettes Gespräch",
+        "b": "Sage schnell Hallo und plaudere kurz",
+        "c": "Nicke kurz zu und kehre zur Arbeit zurück",
+        "d": "Verstecke mich hinter dem Laptop, bevor ich entdeckt werde"
+      }
+    },
+    "q8": {
+      "text": "Du gehst eine Woche auf Reisen. Mit wem?",
+      "options": {
+        "a": "Mit einer ganzen Gruppe von Freunden — je mehr, desto besser!",
+        "b": "Mit ein bis zwei engen Freunden ist perfekt",
+        "c": "Allein, aber offen für Kontakte mit Einheimischen",
+        "d": "Komplett allein mit meinem eigenen Zeitplan und Freiheit"
+      }
+    },
+    "q9": {
+      "text": "Wenn deine Energie völlig leer ist, die beste Aufladung ist...",
+      "options": {
+        "a": "Mit meinen Lieblingsmenschen ausgehen",
+        "b": "Ein gemütliches Treffen in kleiner Runde",
+        "c": "In ein Solo-Hobby eintauchen",
+        "d": "Absolut nichts tun in völliger Stille"
+      }
+    },
+    "q10": {
+      "text": "Wie viel 'Reset-Zeit' brauchst du nach sozialen Aktivitäten?",
+      "options": {
+        "a": "Fast keine — bin sofort bereit fürs Nächste!",
+        "b": "Ein paar Stunden und ich bin wieder fit",
+        "c": "Brauche einen ganzen Tag für mich",
+        "d": "Mehrere Tage allein, um mich vollständig zu erholen"
+      }
+    }
+  },
+  "quiz": {
+    "prev": "Zurück",
+    "next": "Weiter",
+    "finish": "Ergebnis sehen"
+  },
+  "charging": {
+    "text": "Akkuladestand wird gemessen..."
+  },
+  "types": {
+    "solarPanel": {
+      "name": "☀️ Solarpanel",
+      "desc": "Du bist ein soziales Kraftwerk, das sich durch Menschen auflädt! Gespräche und Treffen sind dein Treibstoff — Alleinsein entlädt dich eher.",
+      "ratio": "Sozial 70% : Allein 30%",
+      "recharge": "Lebhafte Gespräche mit Freunden, Partys, Gruppenaktivitäten, neue Leute kennenlernen",
+      "compatible": ["Aufladbarer Akku", "Solarpanel"]
+    },
+    "rechargeable": {
+      "name": "🔋 Aufladbarer Akku",
+      "desc": "Du findest die perfekte Balance zwischen Geselligkeit und Alleinsein! Du verwaltest deine Energie flexibel je nach Situation.",
+      "ratio": "Sozial 50% : Allein 50%",
+      "recharge": "Kleine Treffen, tiefe Gespräche mit engen Freunden, Café-Zeit, leichte Outdoor-Aktivitäten",
+      "compatible": ["Solarpanel", "Energiesparmodus"]
+    },
+    "energySaver": {
+      "name": "🔌 Energiesparmodus",
+      "desc": "Ein effizienter Introvertierter, der seine Energie weise verwaltet! Du bevorzugst tiefe Verbindungen mit wenigen Menschen und lädst wirklich in der Einsamkeit auf.",
+      "ratio": "Sozial 30% : Allein 70%",
+      "recharge": "Lesen, alleine Spazierengehen, Musik hören, Hobbys, Ruhe in stillen Räumen",
+      "compatible": ["Aufladbarer Akku", "Notfallmodus"]
+    },
+    "emergency": {
+      "name": "🪫 Notfallmodus",
+      "desc": "Ein ultrasensibler Energiedetektor! Soziale Situationen entladen deinen Akku schnell, und tiefe, bedeutungsvolle Alleinzeit ist absolut unverzichtbar.",
+      "ratio": "Sozial 15% : Allein 85%",
+      "recharge": "Völlige Stille, Spaziergänge in der Natur, Meditation, kreative Aktivitäten, digitale Entgiftung",
+      "compatible": ["Energiesparmodus", "Notfallmodus"]
+    }
+  },
+  "result": {
+    "details": "Detaillierte Ergebnisse",
+    "batteryLevel": "Akkuladestand",
+    "socialRatio": "Ideales Sozial:Allein-Verhältnis",
+    "rechargeMethod": "Empfohlene Auflademethode",
+    "compatible": "Kompatible Typen",
+    "compatibleTypes": "Beste Übereinstimmungen",
+    "retake": "🔋 Erneut testen"
+  },
+  "share": {
+    "twitter": "Twitter",
+    "copyUrl": "📋 Link kopieren",
+    "copied": "Kopiert!",
+    "twitterText": "Mein Sozialakku steht bei {percent}%! Typ: {type} 🔋 Wie steht dein Sozialakku?"
+  },
+  "nav": {
+    "back": "Zurück"
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "title": "Test de Batería Social | ¿Cuánta energía social tienes? - DopaBrain",
+    "description": "Mide tu nivel de batería social con 10 preguntas. Descubre tu tipo de energía social, tu proporción ideal de socialización y soledad, y cómo recargarte."
+  },
+  "a11y": {
+    "skip": "Saltar al contenido principal"
+  },
+  "app": {
+    "title": "Batería Social",
+    "subtitle": "Social Battery Test",
+    "heroTitle": "¿En qué % está tu batería social?",
+    "heroDesc": "10 preguntas para descubrir tu nivel de energía social y tu tipo.",
+    "start": "🔋 Comenzar Test"
+  },
+  "intro": {
+    "chipQuestions": "10 Preguntas",
+    "chipTime": "~2 Minutos",
+    "chipTypes": "4 Tipos",
+    "typeSolar": "Panel Solar",
+    "typeRechargeable": "Batería Recargable",
+    "typeSaver": "Ahorro de Energía",
+    "typeEmergency": "Modo Emergencia",
+    "disclaimer": "⚠️ Este test es solo para entretenimiento, no es un diagnóstico clínico."
+  },
+  "questions": {
+    "q1": {
+      "text": "Estás en una fiesta pasándola genial. ¿Cuánto tiempo antes de querer irte?",
+      "options": {
+        "a": "¡Puedo quedarme toda la noche! Mi energía no para",
+        "b": "3-4 horas es mi punto ideal",
+        "c": "1-2 horas es suficiente, luego quiero escapar",
+        "d": "30 minutos máximo... honestamente, ya estaba agotado/a antes de llegar"
+      }
+    },
+    "q2": {
+      "text": "Tu amigo/a cancela los planes a último momento. ¿Tu reacción honesta?",
+      "options": {
+        "a": "¡Qué pena! Inmediatamente le escribo a alguien más",
+        "b": "Un poco decepcionado/a, pero nos vemos otro día",
+        "c": "Secretamente aliviado/a mientras disfruto mi tiempo libre",
+        "d": "¡Celebración interna! El tiempo a solas inesperado es el mejor regalo"
+      }
+    },
+    "q3": {
+      "text": "Después de un día entero de reuniones, tú...",
+      "options": {
+        "a": "Llamo a amigos para desahogarme y recargarme socializando",
+        "b": "Una cena casual con alguien suena bien",
+        "c": "Me voy directo a casa a descansar en silencio",
+        "d": "Apago todas las notificaciones y me vuelvo invisible"
+      }
+    },
+    "q4": {
+      "text": "Tu fin de semana ideal es...",
+      "options": {
+        "a": "Lleno de amigos, fiestas y actividades al aire libre",
+        "b": "Un día social, un día relajándome en casa",
+        "c": "Mayormente solo/a con quizás un encuentro breve",
+        "d": "48 horas de soledad perfecta e ininterrumpida"
+      }
+    },
+    "q5": {
+      "text": "El chat grupal está explotando con mensajes. Tú...",
+      "options": {
+        "a": "Me meto de lleno y mantengo la conversación",
+        "b": "Reacciono de vez en cuando y sigo el hilo",
+        "c": "Leo en silencio, solo respondo cuando me preguntan directamente",
+        "d": "Lo silencio y lo reviso después... quizás mañana"
+      }
+    },
+    "q6": {
+      "text": "Te invitan a un evento de networking lleno de desconocidos.",
+      "options": {
+        "a": "¡Genial! Una oportunidad de conocer gente nueva",
+        "b": "Iría si un amigo/a va conmigo",
+        "c": "Voy por obligación pero me escapo temprano",
+        "d": "Declino amablemente y me quedo en casa, gracias"
+      }
+    },
+    "q7": {
+      "text": "Estás trabajando en una cafetería y ves a alguien conocido.",
+      "options": {
+        "a": "Lo/la invito a sentarse para una charla larga y divertida",
+        "b": "Le digo hola rápido y charlo un poco",
+        "c": "Un saludo breve y vuelvo a mi trabajo",
+        "d": "Me escondo detrás de mi laptop antes de que me vea"
+      }
+    },
+    "q8": {
+      "text": "Vas a un viaje de una semana. ¿A quién llevas?",
+      "options": {
+        "a": "¡Un grupo grande de amigos — cuantos más, mejor!",
+        "b": "Uno o dos amigos cercanos es perfecto",
+        "c": "Solo/a, pero abierto/a a conocer locales",
+        "d": "Completamente solo/a con mi propio horario y libertad"
+      }
+    },
+    "q9": {
+      "text": "Cuando tu energía está totalmente agotada, la mejor recarga es...",
+      "options": {
+        "a": "Salir con mis personas favoritas",
+        "b": "Una reunión acogedora en grupo pequeño",
+        "c": "Sumergirme en un hobby en solitario",
+        "d": "No hacer absolutamente nada en completo silencio"
+      }
+    },
+    "q10": {
+      "text": "¿Cuánto 'tiempo de reinicio' necesitas después de actividades sociales?",
+      "options": {
+        "a": "Casi nada — ¡estoy listo/a para lo siguiente!",
+        "b": "Unas pocas horas y estoy como nuevo/a",
+        "c": "Necesito un día completo para mí",
+        "d": "Varios días a solas para recuperarme por completo"
+      }
+    }
+  },
+  "quiz": {
+    "prev": "Anterior",
+    "next": "Siguiente",
+    "finish": "Ver Resultados"
+  },
+  "charging": {
+    "text": "Midiendo nivel de batería..."
+  },
+  "types": {
+    "solarPanel": {
+      "name": "☀️ Panel Solar",
+      "desc": "¡Eres una central de energía social que se carga con la gente! Las conversaciones y reuniones son tu combustible — estar solo/a te descarga.",
+      "ratio": "Social 70% : Solo/a 30%",
+      "recharge": "Conversaciones animadas con amigos, fiestas, actividades grupales, conocer gente nueva",
+      "compatible": ["Batería Recargable", "Panel Solar"]
+    },
+    "rechargeable": {
+      "name": "🔋 Batería Recargable",
+      "desc": "¡Logras el balance perfecto entre socializar y estar solo/a! Gestionas tu energía con flexibilidad según la situación.",
+      "ratio": "Social 50% : Solo/a 50%",
+      "recharge": "Reuniones pequeñas, charlas profundas con amigos cercanos, tiempo en cafetería, actividades al aire libre ligeras",
+      "compatible": ["Panel Solar", "Ahorro de Energía"]
+    },
+    "energySaver": {
+      "name": "🔌 Ahorro de Energía",
+      "desc": "¡Un introvertido eficiente que gestiona su energía sabiamente! Prefieres conexiones profundas con pocas personas y realmente te recargas en soledad.",
+      "ratio": "Social 30% : Solo/a 70%",
+      "recharge": "Lectura, paseos en solitario, escuchar música, hobbies, descanso en espacios tranquilos",
+      "compatible": ["Batería Recargable", "Modo Emergencia"]
+    },
+    "emergency": {
+      "name": "🪫 Modo Emergencia",
+      "desc": "¡Un detector de energía ultrasensible! Las situaciones sociales agotan tu batería rápidamente y el tiempo a solas profundo y significativo es absolutamente esencial.",
+      "ratio": "Social 15% : Solo/a 85%",
+      "recharge": "Silencio completo, paseos en la naturaleza, meditación, actividades creativas, desintoxicación digital",
+      "compatible": ["Ahorro de Energía", "Modo Emergencia"]
+    }
+  },
+  "result": {
+    "details": "Resultados Detallados",
+    "batteryLevel": "Nivel de Batería",
+    "socialRatio": "Proporción Ideal Social:Solo/a",
+    "rechargeMethod": "Método de Recarga Recomendado",
+    "compatible": "Tipos Compatibles",
+    "compatibleTypes": "Mejores Combinaciones",
+    "retake": "🔋 Repetir Test"
+  },
+  "share": {
+    "twitter": "Twitter",
+    "copyUrl": "📋 Copiar Enlace",
+    "copied": "¡Copiado!",
+    "twitterText": "¡Mi batería social está al {percent}%! Tipo: {type} 🔋 ¿Cuál es tu batería social?"
+  },
+  "nav": {
+    "back": "Atrás"
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "title": "Sosyal Batarya Testi | Sosyal Enerjin Ne Kadar? - DopaBrain",
+    "description": "10 soruyla sosyal batarya seviyeni ölç. Sosyal enerji tipini, ideal sosyalleşme-yalnızlık oranını ve şarj yöntemini keşfet."
+  },
+  "a11y": {
+    "skip": "Ana içeriğe geç"
+  },
+  "app": {
+    "title": "Sosyal Batarya Testi",
+    "subtitle": "Social Battery Test",
+    "heroTitle": "Sosyal bataryan yüzde kaç?",
+    "heroDesc": "10 soruyla sosyal enerji seviyeni ve tipini öğren.",
+    "start": "🔋 Teste Başla"
+  },
+  "intro": {
+    "chipQuestions": "10 Soru",
+    "chipTime": "~2 Dakika",
+    "chipTypes": "4 Tip",
+    "typeSolar": "Güneş Paneli",
+    "typeRechargeable": "Şarj Edilebilir Batarya",
+    "typeSaver": "Enerji Tasarrufu",
+    "typeEmergency": "Acil Durum Modu",
+    "disclaimer": "⚠️ Bu test eğlence amaçlıdır, klinik bir tanı değildir."
+  },
+  "questions": {
+    "q1": {
+      "text": "Bir partidesin ve çok eğleniyorsun. Ne kadar sonra ayrılmak istersin?",
+      "options": {
+        "a": "Sabaha kadar kalabilirim! Enerjim hiç bitmiyor",
+        "b": "3-4 saat idealim",
+        "c": "1-2 saat yeterli, sonra sıvışmak istiyorum",
+        "d": "30 dakika bile fazla... daha gelmeden yorulmuştum zaten"
+      }
+    },
+    "q2": {
+      "text": "Arkadaşın son dakika planları iptal etti. Dürüst tepkin?",
+      "options": {
+        "a": "Çok kötü! Hemen başkasına mesaj atıyorum",
+        "b": "Biraz hayal kırıklığı ama başka zaman buluşuruz",
+        "c": "Gizlice rahatlarken serbest zamanımın tadını çıkarıyorum",
+        "d": "İçimde kutlama! Beklenmedik yalnız zaman en güzel hediye"
+      }
+    },
+    "q3": {
+      "text": "Bütün gün toplantılarla geçti. İş çıkışı...",
+      "options": {
+        "a": "Arkadaşları arayıp sohbetle stres atıyorum",
+        "b": "Hafif bir akşam yemeği daveti olabilir",
+        "c": "Doğruca eve gidip sessizce dinleniyorum",
+        "d": "Tüm bildirimleri kapatıp kimseyi görmek istemiyorum"
+      }
+    },
+    "q4": {
+      "text": "İdeal hafta sonun nasıl görünür?",
+      "options": {
+        "a": "Arkadaşlar, partiler ve dış aktivitelerle dolu",
+        "b": "Bir gün sosyal, bir gün evde dinlenme",
+        "c": "Çoğunlukla yalnız, belki bir kısa buluşma",
+        "d": "48 saat kesintisiz mükemmel yalnızlık"
+      }
+    },
+    "q5": {
+      "text": "Grup sohbeti mesajlarla patlıyor. Sen...",
+      "options": {
+        "a": "Hemen katılıp sohbeti sürdürüyorum",
+        "b": "Ara sıra tepki verip akışı takip ediyorum",
+        "c": "Sessizce okuyorum, sadece sorulduğunda cevaplıyorum",
+        "d": "Sessize alıp sonra bakıyorum... belki yarın"
+      }
+    },
+    "q6": {
+      "text": "Yabancılarla dolu bir networking etkinliğine davet edildin.",
+      "options": {
+        "a": "Harika! Yeni insanlarla tanışma fırsatı",
+        "b": "Bir arkadaşım gelirse giderim",
+        "c": "Mecburiyetten giderim ama erken çıkarım",
+        "d": "Kibarca reddedip evde kalırım, teşekkürler"
+      }
+    },
+    "q7": {
+      "text": "Bir kafede çalışırken tanıdık birini gördün.",
+      "options": {
+        "a": "Sevinçle yanıma çağırıp uzun uzun sohbet ederim",
+        "b": "Kısaca merhaba deyip biraz konuşurum",
+        "c": "Kısa bir el sallamalar ve işe dönüş",
+        "d": "Fark edilmeden önce laptopumun arkasına saklanırım"
+      }
+    },
+    "q8": {
+      "text": "Bir haftalık seyahate çıkıyorsun. Kiminle gidersin?",
+      "options": {
+        "a": "Kalabalık bir arkadaş grubuyla — ne kadar çok o kadar iyi!",
+        "b": "Bir iki yakın arkadaşla mükemmel",
+        "c": "Tek başıma ama yerel insanlarla tanışmaya açık",
+        "d": "Tamamen yalnız, kendi programım ve özgürlüğümle!"
+      }
+    },
+    "q9": {
+      "text": "Enerjin tamamen tükendiğinde en iyi şarj yöntemi...",
+      "options": {
+        "a": "En sevdiğim insanlarla dışarı çıkmak",
+        "b": "Küçük bir grupla rahat bir buluşma",
+        "c": "Tek başıma bir hobiye dalmak",
+        "d": "Tam bir sessizlikte kesinlikle hiçbir şey yapmamak"
+      }
+    },
+    "q10": {
+      "text": "Sosyal aktivitelerden sonra ne kadar 'sıfırlama zamanı' lazım?",
+      "options": {
+        "a": "Neredeyse hiç — bir sonrakine hazırım!",
+        "b": "Birkaç saat yeterli",
+        "c": "Tam bir gün kendime ayırmam lazım",
+        "d": "Tamamen toparlanmak için birkaç gün yalnızlık şart"
+      }
+    }
+  },
+  "quiz": {
+    "prev": "Önceki",
+    "next": "Sonraki",
+    "finish": "Sonuçları Gör"
+  },
+  "charging": {
+    "text": "Batarya seviyesi ölçülüyor..."
+  },
+  "types": {
+    "solarPanel": {
+      "name": "☀️ Güneş Paneli",
+      "desc": "İnsanlarla birlikte şarj olan bir sosyal enerji santralisin! Sohbet ve buluşmalar yakıtın — yalnız kalmak seni enerji kaybettirir.",
+      "ratio": "Sosyal 70% : Yalnız 30%",
+      "recharge": "Arkadaşlarla canlı sohbetler, partiler, grup aktiviteleri, yeni insanlarla tanışma",
+      "compatible": ["Şarj Edilebilir Batarya", "Güneş Paneli"]
+    },
+    "rechargeable": {
+      "name": "🔋 Şarj Edilebilir Batarya",
+      "desc": "Sosyal zaman ve yalnız zaman arasında mükemmel denge kuruyorsun! Duruma göre esneklik göstererek enerjini yönetiyorsun.",
+      "ratio": "Sosyal 50% : Yalnız 50%",
+      "recharge": "Küçük buluşmalar, yakın arkadaşlarla derin sohbetler, kafe zamanı, hafif dış aktiviteler",
+      "compatible": ["Güneş Paneli", "Enerji Tasarrufu"]
+    },
+    "energySaver": {
+      "name": "🔌 Enerji Tasarrufu",
+      "desc": "Enerjisini akıllıca yöneten verimli bir içe dönük! Az ama derin bağlantıları tercih edersin ve gerçekten yalnızlıkta şarj olursun.",
+      "ratio": "Sosyal 30% : Yalnız 70%",
+      "recharge": "Okuma, yalnız yürüyüşler, müzik dinleme, hobiler, sessiz ortamlarda dinlenme",
+      "compatible": ["Şarj Edilebilir Batarya", "Acil Durum Modu"]
+    },
+    "emergency": {
+      "name": "🪫 Acil Durum Modu",
+      "desc": "Ultra hassas bir enerji dedektörü! Sosyal durumlar bataryanı hızla tüketiyor ve derin, anlamlı yalnız zaman kesinlikle vazgeçilmez.",
+      "ratio": "Sosyal 15% : Yalnız 85%",
+      "recharge": "Tam sessizlik, doğa yürüyüşleri, meditasyon, yaratıcı aktiviteler, dijital detoks",
+      "compatible": ["Enerji Tasarrufu", "Acil Durum Modu"]
+    }
+  },
+  "result": {
+    "details": "Detaylı Sonuçlar",
+    "batteryLevel": "Batarya Seviyesi",
+    "socialRatio": "İdeal Sosyal:Yalnız Oranı",
+    "rechargeMethod": "Önerilen Şarj Yöntemi",
+    "compatible": "Uyumlu Tipler",
+    "compatibleTypes": "En İyi Eşleşmeler",
+    "retake": "🔋 Tekrar Test Et"
+  },
+  "share": {
+    "twitter": "Twitter",
+    "copyUrl": "📋 Linki Kopyala",
+    "copied": "Kopyalandı!",
+    "twitterText": "Sosyal bataryam %{percent}! Tipim: {type} 🔋 Senin sosyal bataryan kaç?"
+  },
+  "nav": {
+    "back": "Geri"
+  }
+}
