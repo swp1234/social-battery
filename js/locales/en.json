@@ -1,153 +1,121 @@
 {
   "meta": {
-    "title": "Social Battery Test | What's Your Social Energy? - DopaBrain",
-    "description": "Measure your social battery level with 10 questions. Discover your social energy type, ideal social-to-alone ratio, and recharge methods."
+    "title": "Social Battery Test | Real-Time Energy Meter - DopaBrain",
+    "description": "Watch your social battery charge and drain in real time! Tap through 12 social scenarios to discover your energy type."
   },
   "a11y": {
     "skip": "Skip to main content"
   },
   "app": {
-    "title": "Social Battery Test",
-    "subtitle": "Social Battery Test",
-    "heroTitle": "What's Your Social Battery at?",
-    "heroDesc": "10 questions to discover your social energy level and type.",
-    "start": "🔋 Start Test"
+    "title": "Social Battery",
+    "subtitle": "Real-Time Energy Meter",
+    "heroTitle": "Watch Your Battery React in Real Time",
+    "heroDesc": "Tap through 12 social scenarios. Your battery charges or drains based on your choices — see it happen live!",
+    "badge": "Live Battery",
+    "info1": "12 Scenarios",
+    "info2": "~2 Min",
+    "info3": "Real-Time",
+    "disclaimer": "For entertainment only. Not a clinical diagnosis.",
+    "start": "⚡ Start Test"
   },
   "intro": {
-    "chipQuestions": "10 Questions",
-    "chipTime": "~2 Minutes",
-    "chipTypes": "4 Types",
     "typeSolar": "Solar Panel",
     "typeRechargeable": "Rechargeable",
     "typeSaver": "Energy Saver",
-    "typeEmergency": "Emergency Mode",
-    "disclaimer": "⚠️ This test is for fun and is not a clinical diagnosis."
+    "typeEmergency": "Emergency Mode"
   },
-  "questions": {
-    "q1": {
-      "text": "You're at a party and having a great time. How long before you want to leave?",
-      "options": {
-        "a": "I could stay all night! My energy just keeps going",
-        "b": "3-4 hours is my sweet spot",
-        "c": "1-2 hours is plenty, then I'm ready to slip out",
-        "d": "30 minutes max... honestly I was tired before I arrived"
-      }
+  "battery": {
+    "charges": "⚡ Charges Me",
+    "drains": "🪫 Drains Me",
+    "scenario": "Scenario"
+  },
+  "scenarios": {
+    "s1": {
+      "emoji": "🎉",
+      "title": "Surprise Party",
+      "desc": "Your friends throw you a surprise birthday party. 20 people yelling 'SURPRISE!' as you walk in."
     },
-    "q2": {
-      "text": "Your friend cancels plans last minute. Your honest reaction?",
-      "options": {
-        "a": "Bummed! I immediately text someone else to hang out",
-        "b": "A bit disappointed, but we'll meet another time",
-        "c": "Secretly relieved while enjoying my sudden free time",
-        "d": "Internal celebration! Unexpected alone time is the best gift"
-      }
+    "s2": {
+      "emoji": "🤝",
+      "title": "Networking Event",
+      "desc": "A professional mixer with 50+ strangers. Everyone's making small talk and exchanging business cards."
     },
-    "q3": {
-      "text": "After a full day of meetings, you...",
-      "options": {
-        "a": "Call friends to vent and recharge through socializing",
-        "b": "A casual dinner with someone sounds nice",
-        "c": "Head straight home for some quiet time",
-        "d": "Turn off all notifications and become invisible"
-      }
+    "s3": {
+      "emoji": "📚",
+      "title": "Solo Lunch",
+      "desc": "Eating lunch alone at a quiet café with a good book. Nobody knows where you are."
     },
-    "q4": {
-      "text": "Your ideal weekend looks like...",
-      "options": {
-        "a": "Packed with friends, parties, and outdoor activities",
-        "b": "One day social, one day relaxing at home",
-        "c": "Mostly alone with maybe one short meetup",
-        "d": "48 hours of perfect, uninterrupted solitude"
-      }
+    "s4": {
+      "emoji": "💻",
+      "title": "Group Video Call",
+      "desc": "A group video call with 8 friends that's been going on for over an hour."
     },
-    "q5": {
-      "text": "The group chat is blowing up with messages. You...",
-      "options": {
-        "a": "Jump right in and keep the conversation going",
-        "b": "React occasionally and follow along",
-        "c": "Read silently, only reply when directly asked",
-        "d": "Mute it and check later... maybe tomorrow"
-      }
+    "s5": {
+      "emoji": "🎪",
+      "title": "Crowded Festival",
+      "desc": "Walking through a packed music festival. Shoulder-to-shoulder crowds, loud music, sensory overload."
     },
-    "q6": {
-      "text": "You're invited to a networking event full of strangers.",
-      "options": {
-        "a": "Exciting! A chance to meet new people",
-        "b": "I'd go if a friend comes with me",
-        "c": "I'll show up out of obligation but leave early",
-        "d": "Politely decline and stay home, thanks"
-      }
+    "s6": {
+      "emoji": "🎬",
+      "title": "Movie Night",
+      "desc": "A cozy movie night at home with 1-2 close friends. Blankets, snacks, no pressure to talk."
     },
-    "q7": {
-      "text": "You're working at a cafe and spot someone you know.",
-      "options": {
-        "a": "Invite them over for a long, fun chat",
-        "b": "Say a quick hello and have a brief chat",
-        "c": "Give a short wave and get back to work",
-        "d": "Hide behind my laptop before they notice me"
-      }
+    "s7": {
+      "emoji": "🎤",
+      "title": "Center of Attention",
+      "desc": "You're doing karaoke and everyone in the room is watching you sing. All eyes on you."
     },
-    "q8": {
-      "text": "You're going on a week-long trip. Who do you bring?",
-      "options": {
-        "a": "A whole group of friends — the more the merrier!",
-        "b": "One or two close friends is perfect",
-        "c": "Solo, but open to meeting locals",
-        "d": "Completely alone with my own schedule and freedom"
-      }
+    "s8": {
+      "emoji": "🏠",
+      "title": "Weekend Alone",
+      "desc": "An entire weekend with zero plans. Just you, your hobbies, and complete silence."
     },
-    "q9": {
-      "text": "When your energy is totally drained, the best recharge is...",
-      "options": {
-        "a": "Going out with my favorite people",
-        "b": "A cozy hangout with a small group",
-        "c": "Diving into a solo hobby",
-        "d": "Doing absolutely nothing in complete silence"
-      }
+    "s9": {
+      "emoji": "🚗",
+      "title": "Spontaneous Trip",
+      "desc": "Friends text: 'Road trip in 30 min, pack a bag!' A spontaneous weekend adventure with 4 friends."
     },
-    "q10": {
-      "text": "How much 'reset time' do you need after social activities?",
-      "options": {
-        "a": "Almost none — I'm ready for the next thing!",
-        "b": "A few hours and I'm good to go",
-        "c": "I need a full day to myself",
-        "d": "Several days of alone time to fully recover"
-      }
+    "s10": {
+      "emoji": "📱",
+      "title": "Unknown Caller",
+      "desc": "Your phone rings with an unknown number. It could be important... or it could be anyone."
+    },
+    "s11": {
+      "emoji": "☕",
+      "title": "Busy Café Work",
+      "desc": "Working on your laptop at a packed, noisy café. People chatting all around you."
+    },
+    "s12": {
+      "emoji": "🥾",
+      "title": "Nature Hike",
+      "desc": "A quiet solo hike through a forest trail. Just birdsong, trees, and your own thoughts."
     }
-  },
-  "quiz": {
-    "prev": "Previous",
-    "next": "Next",
-    "finish": "See Results"
-  },
-  "charging": {
-    "text": "Measuring battery level..."
   },
   "types": {
     "solarPanel": {
       "name": "☀️ Solar Panel",
       "desc": "You're a social powerhouse that charges up around people! Conversations and gatherings are your fuel — being alone actually drains you.",
       "ratio": "Social 70% : Alone 30%",
-      "recharge": "Lively conversations with friends, parties, group activities, meeting new people",
+      "recharge": "Lively conversations, parties, group activities, meeting new people",
       "compatible": ["Rechargeable Battery", "Solar Panel"]
     },
     "rechargeable": {
       "name": "🔋 Rechargeable Battery",
-      "desc": "You strike the perfect balance between social time and alone time! You flexibly manage your energy based on the situation.",
+      "desc": "You strike the perfect balance between social and alone time! You manage your energy flexibly based on the situation.",
       "ratio": "Social 50% : Alone 50%",
-      "recharge": "Small gatherings, deep talks with close friends, café time, light outdoor activities",
+      "recharge": "Small gatherings, deep talks with close friends, café time, outdoor activities",
       "compatible": ["Solar Panel", "Energy Saver"]
     },
     "energySaver": {
       "name": "🔌 Energy Saver",
-      "desc": "An efficient introvert who wisely manages their energy! You prefer deep connections with a few people and truly recharge in solitude.",
+      "desc": "An efficient introvert who wisely manages their energy! You prefer deep connections with a few and truly recharge in solitude.",
       "ratio": "Social 30% : Alone 70%",
-      "recharge": "Reading, solo walks, listening to music, hobbies, resting in quiet spaces",
+      "recharge": "Reading, solo walks, music, hobbies, quiet spaces",
       "compatible": ["Rechargeable Battery", "Emergency Mode"]
     },
     "emergency": {
       "name": "🪫 Emergency Mode",
-      "desc": "An ultra-sensitive energy detector! Social situations drain your battery fast, and deep, meaningful alone time is absolutely essential.",
+      "desc": "An ultra-sensitive energy detector! Social situations drain your battery fast, and meaningful alone time is absolutely essential.",
       "ratio": "Social 15% : Alone 85%",
       "recharge": "Complete silence, nature walks, meditation, creative activities, digital detox",
       "compatible": ["Energy Saver", "Emergency Mode"]
@@ -155,20 +123,17 @@
   },
   "result": {
     "details": "Detailed Results",
-    "batteryLevel": "Battery Level",
+    "batteryLevel": "Final Battery Level",
     "socialRatio": "Ideal Social:Alone Ratio",
     "rechargeMethod": "Recommended Recharge",
     "compatible": "Compatible Types",
     "compatibleTypes": "Best Matches",
-    "retake": "🔋 Take Again"
+    "retake": "⚡ Try Again"
   },
   "share": {
-    "twitter": "Twitter",
+    "twitter": "𝕏 Share",
     "copyUrl": "📋 Copy Link",
     "copied": "Copied!",
-    "twitterText": "My social battery is at {percent}%! Type: {type} 🔋 What's your social battery?"
-  },
-  "nav": {
-    "back": "Back"
+    "twitterText": "My social battery is at {percent}%! Type: {type} 🔋 What's yours?"
   }
 }

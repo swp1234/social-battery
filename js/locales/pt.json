@@ -1,174 +1,139 @@
 {
   "meta": {
-    "title": "Teste de Bateria Social | Qual é a sua energia social? - DopaBrain",
-    "description": "Meça o nível da sua bateria social com 10 perguntas. Descubra seu tipo de energia social, proporção ideal de socialização e solidão, e como recarregar."
+    "title": "Teste de Bateria Social | Medidor de Energia em Tempo Real - DopaBrain",
+    "description": "Veja sua bateria social carregar e descarregar em tempo real! Toque em 12 cenários sociais para descobrir seu tipo de energia."
   },
   "a11y": {
     "skip": "Pular para o conteúdo principal"
   },
   "app": {
     "title": "Bateria Social",
-    "subtitle": "Social Battery Test",
-    "heroTitle": "Sua bateria social está em quantos %?",
-    "heroDesc": "10 perguntas para descobrir seu nível de energia social e seu tipo.",
-    "start": "🔋 Começar Teste"
+    "subtitle": "Medidor de Energia em Tempo Real",
+    "heroTitle": "Veja Sua Bateria Reagir em Tempo Real",
+    "heroDesc": "Toque em 12 cenários sociais. Sua bateria carrega ou descarrega com base nas suas escolhas — veja acontecer ao vivo!",
+    "badge": "Bateria ao Vivo",
+    "info1": "12 Cenários",
+    "info2": "~2 Min",
+    "info3": "Tempo Real",
+    "disclaimer": "Apenas para entretenimento. Não é um diagnóstico clínico.",
+    "start": "⚡ Iniciar Teste"
   },
   "intro": {
-    "chipQuestions": "10 Perguntas",
-    "chipTime": "~2 Minutos",
-    "chipTypes": "4 Tipos",
     "typeSolar": "Painel Solar",
-    "typeRechargeable": "Bateria Recarregável",
+    "typeRechargeable": "Recarregável",
     "typeSaver": "Economia de Energia",
-    "typeEmergency": "Modo Emergência",
-    "disclaimer": "⚠️ Este teste é apenas para diversão, não é um diagnóstico clínico."
+    "typeEmergency": "Modo Emergência"
   },
-  "questions": {
-    "q1": {
-      "text": "Você está numa festa se divertindo muito. Quanto tempo até querer ir embora?",
-      "options": {
-        "a": "Posso ficar a noite toda! Minha energia não acaba",
-        "b": "3-4 horas é o ideal pra mim",
-        "c": "1-2 horas já basta, aí quero sair de fininho",
-        "d": "30 minutos no máximo... sinceramente, já tava cansado/a antes de chegar"
-      }
+  "battery": {
+    "charges": "⚡ Me Carrega",
+    "drains": "🪫 Me Esgota",
+    "scenario": "Cenário"
+  },
+  "scenarios": {
+    "s1": {
+      "emoji": "🎉",
+      "title": "Festa Surpresa",
+      "desc": "Seus amigos organizam uma festa surpresa de aniversário. 20 pessoas gritando 'SURPRESA!' quando você entra pela porta."
     },
-    "q2": {
-      "text": "Seu amigo/a cancela os planos de última hora. Sua reação honesta?",
-      "options": {
-        "a": "Que chato! Já mando mensagem pra outra pessoa na hora",
-        "b": "Um pouco desapontado/a, mas a gente marca outro dia",
-        "c": "Secretamente aliviado/a enquanto curto meu tempo livre",
-        "d": "Comemoração interna! Tempo sozinho/a inesperado é o melhor presente"
-      }
+    "s2": {
+      "emoji": "🤝",
+      "title": "Evento de Networking",
+      "desc": "Um coquetel profissional com mais de 50 desconhecidos. Todos fazendo conversa fiada e trocando cartões de visita."
     },
-    "q3": {
-      "text": "Depois de um dia inteiro de reuniões, você...",
-      "options": {
-        "a": "Liga pra amigos pra desabafar e recarregar socializando",
-        "b": "Um jantar tranquilo com alguém parece legal",
-        "c": "Vai direto pra casa descansar em silêncio",
-        "d": "Desliga todas as notificações e fica invisível"
-      }
+    "s3": {
+      "emoji": "📚",
+      "title": "Almoço Sozinho",
+      "desc": "Almoçar sozinho em um café tranquilo com um bom livro. Ninguém sabe onde você está."
     },
-    "q4": {
-      "text": "Seu fim de semana ideal é...",
-      "options": {
-        "a": "Lotado de amigos, festas e atividades ao ar livre",
-        "b": "Um dia social, um dia relaxando em casa",
-        "c": "Na maior parte sozinho/a com talvez um encontro rápido",
-        "d": "48 horas de solidão perfeita e ininterrupta"
-      }
+    "s4": {
+      "emoji": "💻",
+      "title": "Videochamada em Grupo",
+      "desc": "Uma videochamada em grupo com 8 amigos que já dura mais de uma hora."
     },
-    "q5": {
-      "text": "O grupo do WhatsApp está bombando de mensagens. Você...",
-      "options": {
-        "a": "Entra na conversa e participa ativamente",
-        "b": "Reage de vez em quando e acompanha o papo",
-        "c": "Lê em silêncio, só responde quando perguntam diretamente",
-        "d": "Silencia e vê depois... talvez amanhã"
-      }
+    "s5": {
+      "emoji": "🎪",
+      "title": "Festival Lotado",
+      "desc": "Caminhando por um festival de música lotado. Multidões ombro a ombro, música alta, sobrecarga sensorial."
     },
-    "q6": {
-      "text": "Você é convidado/a pra um evento de networking cheio de desconhecidos.",
-      "options": {
-        "a": "Show! Uma chance de conhecer gente nova",
-        "b": "Eu iria se um amigo/a fosse comigo",
-        "c": "Vou por obrigação mas saio cedo",
-        "d": "Recuso educadamente e fico em casa, obrigado/a"
-      }
+    "s6": {
+      "emoji": "🎬",
+      "title": "Noite de Filme",
+      "desc": "Uma noite aconchegante de filmes em casa com 1 ou 2 amigos próximos. Cobertores, lanches, sem pressão para conversar."
     },
-    "q7": {
-      "text": "Você está trabalhando numa cafeteria e vê alguém conhecido.",
-      "options": {
-        "a": "Convido pra sentar e bater um papo longo",
-        "b": "Dou um oi rápido e converso um pouquinho",
-        "c": "Dou um aceno breve e volto ao trabalho",
-        "d": "Me escondo atrás do notebook antes de ser visto/a"
-      }
+    "s7": {
+      "emoji": "🎤",
+      "title": "Centro das Atenções",
+      "desc": "Você está cantando karaokê e todos na sala estão te assistindo. Todos os olhares voltados para você."
     },
-    "q8": {
-      "text": "Você vai viajar por uma semana. Com quem?",
-      "options": {
-        "a": "Um grupo grande de amigos — quanto mais, melhor!",
-        "b": "Um ou dois amigos próximos é perfeito",
-        "c": "Sozinho/a, mas aberto/a a conhecer gente local",
-        "d": "Totalmente sozinho/a com minha própria agenda e liberdade"
-      }
+    "s8": {
+      "emoji": "🏠",
+      "title": "Fim de Semana Sozinho",
+      "desc": "Um fim de semana inteiro sem planos. Só você, seus hobbies e silêncio completo."
     },
-    "q9": {
-      "text": "Quando sua energia está esgotada, a melhor recarga é...",
-      "options": {
-        "a": "Sair com minhas pessoas favoritas",
-        "b": "Um encontro aconchegante em grupo pequeno",
-        "c": "Mergulhar num hobby sozinho/a",
-        "d": "Não fazer absolutamente nada em silêncio total"
-      }
+    "s9": {
+      "emoji": "🚗",
+      "title": "Viagem Espontânea",
+      "desc": "Amigos mandam mensagem: 'Viagem de carro em 30 min, faça sua mala!' Uma aventura espontânea de fim de semana com 4 amigos."
     },
-    "q10": {
-      "text": "Quanto 'tempo de reset' você precisa depois de atividades sociais?",
-      "options": {
-        "a": "Quase nenhum — tô pronto/a pro próximo!",
-        "b": "Algumas horas e já fico bem",
-        "c": "Preciso de um dia inteiro pra mim",
-        "d": "Vários dias sozinho/a pra me recuperar totalmente"
-      }
+    "s10": {
+      "emoji": "📱",
+      "title": "Chamada Desconhecida",
+      "desc": "Seu telefone toca com um número desconhecido. Pode ser importante... ou pode ser qualquer pessoa."
+    },
+    "s11": {
+      "emoji": "☕",
+      "title": "Trabalhar em Café Lotado",
+      "desc": "Trabalhando no seu notebook em um café lotado e barulhento. Pessoas conversando ao seu redor."
+    },
+    "s12": {
+      "emoji": "🥾",
+      "title": "Trilha na Natureza",
+      "desc": "Uma caminhada tranquila e solitária por uma trilha na floresta. Apenas o canto dos pássaros, as árvores e seus próprios pensamentos."
     }
-  },
-  "quiz": {
-    "prev": "Anterior",
-    "next": "Próximo",
-    "finish": "Ver Resultados"
-  },
-  "charging": {
-    "text": "Medindo nível da bateria..."
   },
   "types": {
     "solarPanel": {
       "name": "☀️ Painel Solar",
-      "desc": "Você é uma usina social que se carrega com pessoas! Conversas e encontros são seu combustível — ficar sozinho/a na verdade te descarrega.",
+      "desc": "Você é uma potência social que se carrega perto de pessoas! Conversas e encontros são seu combustível — ficar sozinho na verdade te esgota.",
       "ratio": "Social 70% : Sozinho/a 30%",
-      "recharge": "Conversas animadas com amigos, festas, atividades em grupo, conhecer gente nova",
+      "recharge": "Conversas animadas, festas, atividades em grupo, conhecer pessoas novas",
       "compatible": ["Bateria Recarregável", "Painel Solar"]
     },
     "rechargeable": {
       "name": "🔋 Bateria Recarregável",
-      "desc": "Você encontra o equilíbrio perfeito entre socializar e ficar só! Gerencia sua energia com flexibilidade conforme a situação.",
+      "desc": "Você encontra o equilíbrio perfeito entre tempo social e tempo sozinho! Gerencia sua energia de forma flexível conforme a situação.",
       "ratio": "Social 50% : Sozinho/a 50%",
-      "recharge": "Encontros pequenos, conversas profundas com amigos próximos, tempo na cafeteria, atividades leves ao ar livre",
+      "recharge": "Pequenas reuniões, conversas profundas com amigos próximos, tempo em cafés, atividades ao ar livre",
       "compatible": ["Painel Solar", "Economia de Energia"]
     },
     "energySaver": {
       "name": "🔌 Economia de Energia",
-      "desc": "Um introvertido eficiente que gerencia energia com sabedoria! Prefere conexões profundas com poucas pessoas e recarrega de verdade na solidão.",
+      "desc": "Um introvertido eficiente que gerencia sabiamente sua energia! Você prefere conexões profundas com poucos e realmente recarrega na solidão.",
       "ratio": "Social 30% : Sozinho/a 70%",
-      "recharge": "Leitura, caminhadas sozinho/a, ouvir música, hobbies, descanso em lugares tranquilos",
+      "recharge": "Leitura, caminhadas solitárias, música, hobbies, espaços tranquilos",
       "compatible": ["Bateria Recarregável", "Modo Emergência"]
     },
     "emergency": {
       "name": "🪫 Modo Emergência",
-      "desc": "Um detector de energia ultrassensível! Situações sociais drenam sua bateria rapidamente e tempo sozinho/a profundo e significativo é absolutamente essencial.",
+      "desc": "Um detector de energia ultrassensível! Situações sociais drenam sua bateria rapidamente, e tempo sozinho significativo é absolutamente essencial.",
       "ratio": "Social 15% : Sozinho/a 85%",
-      "recharge": "Silêncio completo, caminhadas na natureza, meditação, atividades criativas, detox digital",
+      "recharge": "Silêncio total, caminhadas na natureza, meditação, atividades criativas, desintoxicação digital",
       "compatible": ["Economia de Energia", "Modo Emergência"]
     }
   },
   "result": {
     "details": "Resultados Detalhados",
-    "batteryLevel": "Nível da Bateria",
+    "batteryLevel": "Nível Final da Bateria",
     "socialRatio": "Proporção Ideal Social:Sozinho/a",
-    "rechargeMethod": "Método de Recarga Recomendado",
+    "rechargeMethod": "Recarga Recomendada",
     "compatible": "Tipos Compatíveis",
     "compatibleTypes": "Melhores Combinações",
-    "retake": "🔋 Refazer Teste"
+    "retake": "⚡ Tentar Novamente"
   },
   "share": {
-    "twitter": "Twitter",
+    "twitter": "𝕏 Compartilhar",
     "copyUrl": "📋 Copiar Link",
     "copied": "Copiado!",
-    "twitterText": "Minha bateria social está em {percent}%! Tipo: {type} 🔋 Qual é a sua bateria social?"
-  },
-  "nav": {
-    "back": "Voltar"
+    "twitterText": "Minha bateria social está em {percent}%! Tipo: {type} 🔋 Qual é a sua?"
   }
 }

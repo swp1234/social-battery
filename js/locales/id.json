@@ -1,174 +1,139 @@
 {
   "meta": {
-    "title": "Tes Baterai Sosial | Berapa Energi Sosialmu? - DopaBrain",
-    "description": "Ukur level baterai sosialmu dengan 10 pertanyaan. Temukan tipe energi sosialmu, rasio ideal sosialisasi dan waktu sendiri, serta cara mengisi ulang."
+    "title": "Tes Baterai Sosial | Pengukur Energi Real-Time - DopaBrain",
+    "description": "Lihat baterai sosialmu terisi dan terkuras secara real-time! Ketuk 12 skenario sosial untuk menemukan tipe energimu."
   },
   "a11y": {
     "skip": "Lewati ke konten utama"
   },
   "app": {
-    "title": "Tes Baterai Sosial",
-    "subtitle": "Social Battery Test",
-    "heroTitle": "Baterai sosialmu berapa %?",
-    "heroDesc": "10 pertanyaan untuk mengetahui level energi sosial dan tipemu.",
-    "start": "🔋 Mulai Tes"
+    "title": "Baterai Sosial",
+    "subtitle": "Pengukur Energi Real-Time",
+    "heroTitle": "Lihat Reaksi Bateraimu Secara Real-Time",
+    "heroDesc": "Ketuk 12 skenario sosial. Bateraimu terisi atau terkuras berdasarkan pilihanmu — saksikan langsung!",
+    "badge": "Baterai Live",
+    "info1": "12 Skenario",
+    "info2": "~2 Menit",
+    "info3": "Real-Time",
+    "disclaimer": "Hanya untuk hiburan. Bukan diagnosis klinis.",
+    "start": "⚡ Mulai Tes"
   },
   "intro": {
-    "chipQuestions": "10 Pertanyaan",
-    "chipTime": "~2 Menit",
-    "chipTypes": "4 Tipe",
     "typeSolar": "Panel Surya",
     "typeRechargeable": "Baterai Isi Ulang",
     "typeSaver": "Mode Hemat Energi",
-    "typeEmergency": "Mode Darurat",
-    "disclaimer": "⚠️ Tes ini hanya untuk hiburan dan bukan diagnosis psikologis resmi."
+    "typeEmergency": "Mode Darurat"
   },
-  "questions": {
-    "q1": {
-      "text": "Kamu sedang seru-serunya di pesta. Berapa lama sampai ingin pulang?",
-      "options": {
-        "a": "Bisa semalaman! Energiku nggak ada habisnya",
-        "b": "3-4 jam pas banget",
-        "c": "1-2 jam cukup, sudah mulai mau kabur",
-        "d": "30 menit maks... jujur, sudah capek sebelum datang"
-      }
+  "battery": {
+    "charges": "⚡ Mengisi Energiku",
+    "drains": "🪫 Menguras Energiku",
+    "scenario": "Skenario"
+  },
+  "scenarios": {
+    "s1": {
+      "emoji": "🎉",
+      "title": "Pesta Kejutan",
+      "desc": "Teman-temanmu mengadakan pesta kejutan ulang tahun. 20 orang teriak 'KEJUTAN!' saat kamu masuk."
     },
-    "q2": {
-      "text": "Temanmu tiba-tiba batalin janji. Reaksi jujurmu?",
-      "options": {
-        "a": "Sedih! Langsung chat teman lain",
-        "b": "Agak kecewa, tapi ketemu lain kali aja",
-        "c": "Diam-diam lega sambil menikmati waktu bebas",
-        "d": "Pesta dalam hati! Waktu sendiri dadakan adalah hadiah terbaik"
-      }
+    "s2": {
+      "emoji": "🤝",
+      "title": "Acara Networking",
+      "desc": "Acara profesional dengan 50+ orang asing. Semua orang basa-basi dan tukar kartu nama."
     },
-    "q3": {
-      "text": "Setelah seharian meeting, sepulang kerja kamu...",
-      "options": {
-        "a": "Hubungi teman-teman untuk curhat dan recharge lewat ngobrol",
-        "b": "Makan malam santai dengan seseorang kedengarannya oke",
-        "c": "Langsung pulang untuk istirahat dengan tenang",
-        "d": "Matikan semua notifikasi dan jadi tak terlihat"
-      }
+    "s3": {
+      "emoji": "📚",
+      "title": "Makan Siang Sendiri",
+      "desc": "Makan siang sendirian di kafe yang tenang sambil baca buku bagus. Nggak ada yang tahu kamu di mana."
     },
-    "q4": {
-      "text": "Akhir pekan idealmu kayak gimana?",
-      "options": {
-        "a": "Penuh dengan teman, pesta, dan aktivitas outdoor",
-        "b": "Satu hari sosial, satu hari santai di rumah",
-        "c": "Kebanyakan sendiri, mungkin satu pertemuan singkat",
-        "d": "48 jam kesendirian sempurna tanpa gangguan"
-      }
+    "s4": {
+      "emoji": "💻",
+      "title": "Video Call Grup",
+      "desc": "Video call grup dengan 8 teman yang sudah berlangsung lebih dari satu jam."
     },
-    "q5": {
-      "text": "Grup chat lagi rame banget. Kamu...",
-      "options": {
-        "a": "Langsung ikut nimbrung dan aktif ngobrol",
-        "b": "Sesekali react dan ikutin alurnya",
-        "c": "Baca diam-diam, bales cuma kalau ditanya langsung",
-        "d": "Mute dan cek nanti... mungkin besok"
-      }
+    "s5": {
+      "emoji": "🎪",
+      "title": "Festival Padat",
+      "desc": "Berjalan melewati festival musik yang penuh sesak. Kerumunan bahu-membahu, musik keras, semua indera kewalahan."
     },
-    "q6": {
-      "text": "Kamu diundang ke acara networking yang isinya orang asing semua.",
-      "options": {
-        "a": "Seru! Kesempatan kenal orang baru",
-        "b": "Kalau ada teman yang bareng, mau deh",
-        "c": "Datang karena merasa harus tapi pulang cepat",
-        "d": "Tolak dengan sopan dan tetap di rumah, makasih"
-      }
+    "s6": {
+      "emoji": "🎬",
+      "title": "Malam Film",
+      "desc": "Malam nonton film yang nyaman di rumah bersama 1-2 sahabat dekat. Selimut, camilan, tanpa tekanan untuk ngobrol."
     },
-    "q7": {
-      "text": "Kamu lagi kerja di kafe dan lihat kenalan.",
-      "options": {
-        "a": "Ajak duduk bareng dan ngobrol panjang lebar",
-        "b": "Sapa singkat dan ngobrol sebentar",
-        "c": "Lambaikan tangan singkat dan lanjut kerja",
-        "d": "Sembunyi di balik laptop sebelum ketahuan"
-      }
+    "s7": {
+      "emoji": "🎤",
+      "title": "Pusat Perhatian",
+      "desc": "Kamu sedang karaoke dan semua orang di ruangan menonton kamu nyanyi. Semua mata tertuju padamu."
     },
-    "q8": {
-      "text": "Mau pergi jalan-jalan seminggu. Sama siapa?",
-      "options": {
-        "a": "Rombongan teman! Makin banyak makin seru!",
-        "b": "Satu atau dua teman dekat, sempurna",
-        "c": "Sendiri, tapi terbuka kenalan sama orang lokal",
-        "d": "Sendirian total dengan jadwal dan kebebasan sendiri"
-      }
+    "s8": {
+      "emoji": "🏠",
+      "title": "Akhir Pekan Sendiri",
+      "desc": "Seluruh akhir pekan tanpa rencana sama sekali. Cuma kamu, hobimu, dan keheningan total."
     },
-    "q9": {
-      "text": "Ketika energi benar-benar habis, cara recharge terbaik adalah...",
-      "options": {
-        "a": "Jalan-jalan bareng orang-orang kesayangan",
-        "b": "Kumpul santai dengan kelompok kecil",
-        "c": "Tenggelam dalam hobi sendirian",
-        "d": "Nggak ngapa-ngapain dalam keheningan total"
-      }
+    "s9": {
+      "emoji": "🚗",
+      "title": "Trip Dadakan",
+      "desc": "Teman-teman chat: 'Road trip 30 menit lagi, siapin tas!' Petualangan akhir pekan dadakan dengan 4 teman."
     },
-    "q10": {
-      "text": "Berapa lama 'waktu reset' yang kamu butuhkan setelah aktivitas sosial?",
-      "options": {
-        "a": "Hampir nggak perlu — siap untuk acara berikutnya!",
-        "b": "Beberapa jam sudah cukup",
-        "c": "Butuh satu hari penuh untuk diri sendiri",
-        "d": "Butuh beberapa hari sendiri untuk pulih sepenuhnya"
-      }
+    "s10": {
+      "emoji": "📱",
+      "title": "Penelepon Tak Dikenal",
+      "desc": "HP-mu berdering dari nomor tak dikenal. Mungkin penting... atau bisa siapa saja."
+    },
+    "s11": {
+      "emoji": "☕",
+      "title": "Kerja di Kafe Ramai",
+      "desc": "Kerja pakai laptop di kafe yang penuh dan berisik. Orang-orang mengobrol di sekelilingmu."
+    },
+    "s12": {
+      "emoji": "🥾",
+      "title": "Hiking Alam",
+      "desc": "Hiking sendiri yang tenang melalui jalur hutan. Hanya kicau burung, pepohonan, dan pikiranmu sendiri."
     }
-  },
-  "quiz": {
-    "prev": "Sebelumnya",
-    "next": "Berikutnya",
-    "finish": "Lihat Hasil"
-  },
-  "charging": {
-    "text": "Mengukur level baterai..."
   },
   "types": {
     "solarPanel": {
       "name": "☀️ Panel Surya",
-      "desc": "Kamu adalah pembangkit energi sosial yang ngecas dari orang-orang! Percakapan dan perkumpulan adalah bahan bakarmu — sendirian justru menguras energi.",
+      "desc": "Kamu adalah pembangkit tenaga sosial yang terisi dari orang-orang! Percakapan dan perkumpulan adalah bahan bakarmu — sendirian justru menguras energimu.",
       "ratio": "Sosial 70% : Sendiri 30%",
-      "recharge": "Ngobrol seru dengan teman, pesta, aktivitas kelompok, kenalan baru",
+      "recharge": "Obrolan seru, pesta, aktivitas kelompok, kenalan baru",
       "compatible": ["Baterai Isi Ulang", "Panel Surya"]
     },
     "rechargeable": {
       "name": "🔋 Baterai Isi Ulang",
-      "desc": "Kamu menemukan keseimbangan sempurna antara bersosialisasi dan waktu sendiri! Mengelola energi secara fleksibel sesuai situasi.",
+      "desc": "Kamu menemukan keseimbangan sempurna antara waktu sosial dan waktu sendiri! Mengelola energi secara fleksibel sesuai situasi.",
       "ratio": "Sosial 50% : Sendiri 50%",
-      "recharge": "Kumpul kecil, ngobrol mendalam dengan sahabat, waktu di kafe, aktivitas outdoor ringan",
+      "recharge": "Kumpul kecil, obrolan mendalam dengan sahabat, waktu di kafe, aktivitas luar ruangan",
       "compatible": ["Panel Surya", "Mode Hemat Energi"]
     },
     "energySaver": {
       "name": "🔌 Mode Hemat Energi",
-      "desc": "Introvert efisien yang mengelola energi dengan bijak! Lebih suka hubungan mendalam dengan sedikit orang dan benar-benar ngecas saat sendiri.",
+      "desc": "Introvert efisien yang mengelola energi dengan bijak! Lebih suka hubungan mendalam dengan sedikit orang dan benar-benar mengisi ulang saat sendirian.",
       "ratio": "Sosial 30% : Sendiri 70%",
-      "recharge": "Membaca, jalan-jalan sendiri, dengerin musik, hobi, istirahat di tempat tenang",
+      "recharge": "Membaca, jalan-jalan sendiri, musik, hobi, ruang yang tenang",
       "compatible": ["Baterai Isi Ulang", "Mode Darurat"]
     },
     "emergency": {
       "name": "🪫 Mode Darurat",
-      "desc": "Detektor energi ultra sensitif! Situasi sosial menguras baterai dengan cepat, dan waktu sendiri yang mendalam dan bermakna benar-benar esensial.",
+      "desc": "Detektor energi ultra sensitif! Situasi sosial menguras bateraimu dengan cepat, dan waktu sendiri yang bermakna benar-benar sangat dibutuhkan.",
       "ratio": "Sosial 15% : Sendiri 85%",
-      "recharge": "Keheningan total, jalan-jalan di alam, meditasi, aktivitas kreatif, detox digital",
+      "recharge": "Keheningan total, jalan-jalan di alam, meditasi, aktivitas kreatif, detoks digital",
       "compatible": ["Mode Hemat Energi", "Mode Darurat"]
     }
   },
   "result": {
     "details": "Hasil Detail",
-    "batteryLevel": "Level Baterai",
+    "batteryLevel": "Level Baterai Akhir",
     "socialRatio": "Rasio Ideal Sosial:Sendiri",
-    "rechargeMethod": "Metode Recharge yang Direkomendasikan",
+    "rechargeMethod": "Rekomendasi Cara Isi Ulang",
     "compatible": "Tipe yang Cocok",
     "compatibleTypes": "Pasangan Terbaik",
-    "retake": "🔋 Tes Ulang"
+    "retake": "⚡ Coba Lagi"
   },
   "share": {
-    "twitter": "Twitter",
+    "twitter": "𝕏 Bagikan",
     "copyUrl": "📋 Salin Link",
     "copied": "Tersalin!",
-    "twitterText": "Baterai sosialku ada di {percent}%! Tipe: {type} 🔋 Berapa baterai sosialmu?"
-  },
-  "nav": {
-    "back": "Kembali"
+    "twitterText": "Baterai sosialku di {percent}%! Tipe: {type} 🔋 Berapa baterai sosialmu?"
   }
 }

@@ -1,19 +1,17 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="ko" data-theme="dark">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <meta name="robots" content="max-image-preview:large">
 
   <link rel="preconnect" href="https://www.googletagmanager.com">
   <link rel="preconnect" href="https://pagead2.googlesyndication.com">
-  <link rel="dns-prefetch" href="https://www.google-analytics.com">
 
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3600813755953882" crossorigin="anonymous"></script>
 
-  <title data-i18n="meta.title">소셜 배터리 테스트 | 나의 사회적 에너지는? - DopaBrain</title>
-  <meta name="description" data-i18n="meta.description" content="10개 질문으로 당신의 소셜 배터리 잔량을 측정하세요. 사회적 에너지 유형, 이상적인 사교/혼자 비율, 충전 방법을 알아보세요.">
-  <meta name="keywords" content="소셜 배터리, 사회적 에너지, 내향형, 외향형, 소셜 에너지 테스트">
+  <title data-i18n="meta.title">소셜 배터리 테스트 | 실시간 에너지 미터 - DopaBrain</title>
+  <meta name="description" data-i18n="meta.description" content="12가지 사회적 시나리오에 반응하며 실시간으로 배터리가 변하는 걸 지켜보세요!">
 
   <link rel="canonical" href="https://dopabrain.com/social-battery/">
   <meta name="theme-color" content="#F59E0B">
@@ -23,27 +21,15 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-J8GSWM40TV"></script>
   <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-J8GSWM40TV');</script>
 
-  <meta property="og:title" content="Social Battery Test - What's Your Social Energy Level?">
-  <meta property="og:description" content="Find out your social battery level with 10 fun questions. Discover your type, ideal social-to-alone ratio, and recharge methods!">
+  <meta property="og:title" content="Social Battery Test - Real-Time Energy Meter">
+  <meta property="og:description" content="Watch your social battery react in real time! 12 scenarios to discover your energy type.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://dopabrain.com/social-battery/">
   <meta property="og:image" content="https://dopabrain.com/social-battery/icon-512.svg">
-  <meta property="og:locale" content="ko_KR">
-  <meta property="og:locale:alternate" content="en_US">
-  <meta property="og:locale:alternate" content="ja_JP">
-  <meta property="og:locale:alternate" content="zh_CN">
-  <meta property="og:locale:alternate" content="hi_IN">
-  <meta property="og:locale:alternate" content="ru_RU">
-  <meta property="og:locale:alternate" content="es_ES">
-  <meta property="og:locale:alternate" content="pt_BR">
-  <meta property="og:locale:alternate" content="id_ID">
-  <meta property="og:locale:alternate" content="tr_TR">
-  <meta property="og:locale:alternate" content="de_DE">
-  <meta property="og:locale:alternate" content="fr_FR">
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Social Battery Test - DopaBrain">
-  <meta name="twitter:description" content="What's your social energy level? Take the test!">
+  <meta name="twitter:description" content="Watch your battery react in real time!">
   <meta name="twitter:image" content="https://dopabrain.com/social-battery/icon-512.svg">
 
   <link rel="alternate" hreflang="ko" href="https://dopabrain.com/social-battery/">
@@ -65,14 +51,13 @@
     "@context": "https://schema.org",
     "@type": "WebApplication",
     "name": "Social Battery Test",
-    "description": "Measure your social energy level and discover your social battery type",
+    "description": "Watch your social battery charge and drain in real time through 12 social scenarios",
     "url": "https://dopabrain.com/social-battery/",
     "image": "https://dopabrain.com/social-battery/icon-512.svg",
     "applicationCategory": "LifestyleApplication",
-    "educationalLevel": "All",
     "inLanguage": ["ko","en","ja","zh","hi","ru","es","pt","id","tr","de","fr"],
     "author": {"@type": "Organization", "name": "DopaBrain", "url": "https://dopabrain.com/"},
-    "offers": {"@type": "Offer", "price": "0", "priceCurrency": "KRW"}
+    "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}
   }
   </script>
 
@@ -82,20 +67,16 @@
   <a href="#main" class="skip-link" data-i18n="a11y.skip">Skip to main content</a>
 
   <div class="app-loader" id="app-loader">
-    <div class="loader-emoji">🔋</div>
+    <div class="loader-emoji">⚡</div>
     <div class="loader-spinner"></div>
-  </div>
-
-  <div class="ad-banner" id="top-ad">
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3600813755953882" data-ad-slot="auto" data-ad-format="horizontal"></ins>
   </div>
 
   <div class="container" id="main">
     <!-- Header -->
     <header class="header">
       <div>
-        <h1 class="app-title" data-i18n="app.title">소셜 배터리 테스트</h1>
-        <p class="app-subtitle" data-i18n="app.subtitle">Social Battery Test</p>
+        <h1 class="app-title" data-i18n="app.title">Social Battery</h1>
+        <p class="app-subtitle" data-i18n="app.subtitle">Real-Time Energy Meter</p>
       </div>
       <div class="header-controls">
         <button class="icon-btn" id="theme-btn" aria-label="Toggle theme">☀️</button>
@@ -120,77 +101,71 @@
     <!-- Screen: Start -->
     <section id="screen-start" class="screen active">
       <div class="start-hero">
-        <span class="hero-icon">🔋</span>
-        <h2 class="hero-title" data-i18n="app.heroTitle">나의 소셜 배터리는 몇 %?</h2>
-        <p class="hero-subtitle" data-i18n="app.heroDesc">10개 질문으로 당신의 사회적 에너지 잔량과 유형을 알아보세요.</p>
+        <span class="hero-icon">⚡</span>
+        <div class="hero-badge" data-i18n="app.badge">Live Battery</div>
+        <h2 class="hero-title" data-i18n="app.heroTitle">Watch Your Battery React in Real Time</h2>
+        <p class="hero-subtitle" data-i18n="app.heroDesc">Tap through 12 social scenarios. Your battery charges or drains based on your choices!</p>
       </div>
 
       <div class="info-strip">
-        <div class="info-chip">📋 <span data-i18n="intro.chipQuestions">10개 질문</span></div>
-        <div class="info-chip">⏱️ <span data-i18n="intro.chipTime">약 2분 소요</span></div>
-        <div class="info-chip">🔋 <span data-i18n="intro.chipTypes">4가지 유형</span></div>
+        <div class="info-chip">⚡ <span data-i18n="app.info1">12 Scenarios</span></div>
+        <div class="info-chip">⏱️ <span data-i18n="app.info2">~2 Min</span></div>
+        <div class="info-chip">📊 <span data-i18n="app.info3">Real-Time</span></div>
       </div>
 
       <div class="types-grid">
         <div class="type-card" data-type="solar">
           <div class="type-icon">☀️</div>
-          <div class="type-name" data-i18n="intro.typeSolar">솔라 패널</div>
+          <div class="type-name" data-i18n="intro.typeSolar">Solar Panel</div>
           <div class="type-range">76-100%</div>
         </div>
         <div class="type-card" data-type="rechargeable">
           <div class="type-icon">🔋</div>
-          <div class="type-name" data-i18n="intro.typeRechargeable">충전식 배터리</div>
+          <div class="type-name" data-i18n="intro.typeRechargeable">Rechargeable</div>
           <div class="type-range">51-75%</div>
         </div>
         <div class="type-card" data-type="saver">
           <div class="type-icon">🔌</div>
-          <div class="type-name" data-i18n="intro.typeSaver">절전 모드</div>
+          <div class="type-name" data-i18n="intro.typeSaver">Energy Saver</div>
           <div class="type-range">26-50%</div>
         </div>
         <div class="type-card" data-type="emergency">
           <div class="type-icon">🪫</div>
-          <div class="type-name" data-i18n="intro.typeEmergency">긴급 모드</div>
+          <div class="type-name" data-i18n="intro.typeEmergency">Emergency Mode</div>
           <div class="type-range">0-25%</div>
         </div>
       </div>
 
-      <p class="disclaimer" data-i18n="intro.disclaimer">⚠️ 이 테스트는 재미를 위한 것이며 공식 심리 진단이 아닙니다.</p>
-      <button class="btn btn-primary" id="btn-start" data-i18n="app.start">🔋 테스트 시작하기</button>
+      <p class="disclaimer" data-i18n="app.disclaimer">For entertainment only. Not a clinical diagnosis.</p>
+      <button class="btn btn-primary" id="btn-start" data-i18n="app.start">⚡ Start Test</button>
     </section>
 
-    <!-- Screen: Quiz -->
-    <section id="screen-quiz" class="screen">
-      <div class="quiz-header">
-        <div class="progress-info">
-          <span class="progress-label" id="progress-label">1 / 10</span>
-          <span class="progress-count" id="energy-indicator">🔋</span>
+    <!-- Screen: Battery Dashboard -->
+    <section id="screen-dashboard" class="screen">
+      <div class="dashboard-battery">
+        <div class="dash-battery-wrap">
+          <div class="dash-battery-cap"></div>
+          <div class="dash-battery-body">
+            <div class="dash-battery-fill" id="dash-fill"></div>
+            <div class="dash-battery-percent" id="dash-percent">50%</div>
+          </div>
         </div>
-        <div class="progress-bar-wrap">
-          <div class="progress-fill" id="progress-fill"></div>
-        </div>
+        <div class="float-container" id="float-container"></div>
       </div>
 
-      <div class="question-card">
-        <div class="question-number" id="q-number">Q1</div>
-        <div class="question-text" id="q-text"></div>
+      <div class="dash-progress" id="dash-progress">
+        <span id="dash-counter">1 / 12</span>
       </div>
 
-      <div class="options-wrap" id="options-wrap"></div>
-
-      <div class="quiz-nav">
-        <button class="btn btn-secondary" id="btn-prev" data-i18n="quiz.prev">이전</button>
-        <button class="btn btn-primary" id="btn-next" data-i18n="quiz.next">다음</button>
+      <div class="scenario-card" id="scenario-card">
+        <div class="scenario-emoji" id="scenario-emoji">🎉</div>
+        <div class="scenario-title" id="scenario-title"></div>
+        <div class="scenario-desc" id="scenario-desc"></div>
       </div>
-    </section>
 
-    <!-- Screen: Charging (loading) -->
-    <section id="screen-charging" class="screen">
-      <div class="charging-screen">
-        <div class="charging-battery">
-          <div class="charging-fill" id="charging-fill"></div>
-          <div class="charging-bolt">⚡</div>
-        </div>
-        <p class="charging-text" id="charging-text" data-i18n="charging.text">배터리 잔량 측정 중...</p>
+      <div class="choice-buttons" id="choice-buttons">
+        <button class="choice-btn choice-charge" id="btn-charge" data-i18n="battery.charges">⚡ Charges Me</button>
+        <button class="choice-btn choice-drain" id="btn-drain" data-i18n="battery.drains">🪫 Drains Me</button>
       </div>
     </section>
 
@@ -211,23 +186,21 @@
         <p class="type-desc" id="type-desc"></p>
       </div>
 
-      <p class="section-title"><span data-i18n="result.details">상세 결과</span></p>
+      <p class="section-title"><span data-i18n="result.details">Detailed Results</span></p>
       <div class="detail-cards" id="detail-cards"></div>
 
-      <p class="section-title"><span data-i18n="result.compatible">호환되는 유형</span></p>
+      <p class="section-title"><span data-i18n="result.compatible">Compatible Types</span></p>
       <div class="detail-cards" id="compatible-cards"></div>
 
       <div class="share-row">
-        <button class="share-btn twitter" id="btn-twitter">𝕏 <span data-i18n="share.twitter">Twitter</span></button>
-        <button class="share-btn" id="btn-copy"><span data-i18n="share.copyUrl">📋 링크 복사</span></button>
+        <button class="share-btn twitter" id="btn-twitter"><span data-i18n="share.twitter">𝕏 Share</span></button>
+        <button class="share-btn" id="btn-copy"><span data-i18n="share.copyUrl">📋 Copy Link</span></button>
       </div>
 
-      <button class="btn btn-primary" id="btn-retake" data-i18n="result.retake">🔋 다시 테스트하기</button>
-    </section>
-  </div>
+      <button class="btn btn-primary" id="btn-retake" data-i18n="result.retake">⚡ Try Again</button>
 
-  <div class="ad-banner" id="bottom-ad">
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3600813755953882" data-ad-slot="auto" data-ad-format="horizontal"></ins>
+      <div id="cross-promo-container"></div>
+    </section>
   </div>
 
   <script src="js/i18n.js"></script>

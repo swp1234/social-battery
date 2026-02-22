@@ -1,4 +1,7 @@
-/* ===== CSS Variables (Dark mode first) ===== */
+/* ===== Social Battery - Real-Time Dashboard =====
+   Primary: #F59E0B (Amber)
+   Dark mode first, Glassmorphism 2.0 ===== */
+
 :root {
   --primary: #F59E0B;
   --primary-dark: #D97706;
@@ -17,12 +20,12 @@
   --shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
   --glass: rgba(255, 255, 255, 0.05);
   --glass-border: rgba(255, 255, 255, 0.08);
-
-  /* Battery level colors */
   --battery-red: #EF4444;
   --battery-orange: #F97316;
   --battery-yellow: #FBBF24;
   --battery-green: #22C55E;
+  --charge-color: #22C55E;
+  --drain-color: #EF4444;
 }
 
 [data-theme="light"] {
@@ -92,10 +95,7 @@ body::before {
   gap: 16px;
 }
 .app-loader.hidden { opacity: 0; visibility: hidden; pointer-events: none; }
-.loader-emoji {
-  font-size: 3rem;
-  animation: pulse 1.2s ease-in-out infinite;
-}
+.loader-emoji { font-size: 3rem; animation: pulse 1.2s ease-in-out infinite; }
 .loader-spinner {
   width: 48px; height: 48px;
   border: 3px solid var(--border);
@@ -105,16 +105,6 @@ body::before {
 }
 @keyframes spin { to { transform: rotate(360deg); } }
 @keyframes pulse { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.15); } }
-
-/* ===== Ad Banners ===== */
-.ad-banner {
-  width: 100%;
-  text-align: center;
-  padding: 8px 0;
-  background: var(--bg-2);
-  position: relative;
-  z-index: 1;
-}
 
 /* ===== Container ===== */
 .container {
@@ -211,9 +201,22 @@ body::before {
 }
 .hero-icon {
   font-size: 4rem;
-  margin-bottom: 16px;
+  margin-bottom: 12px;
   display: block;
   filter: drop-shadow(0 0 20px rgba(245, 158, 11, 0.5));
+}
+.hero-badge {
+  display: inline-block;
+  background: var(--primary-glow);
+  color: var(--primary);
+  padding: 4px 14px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 16px;
+  border: 1px solid rgba(245, 158, 11, 0.3);
 }
 .hero-title {
   font-size: 1.8rem;
@@ -268,11 +271,10 @@ body::before {
 .type-card:hover {
   background: var(--surface-hover);
   transform: translateY(-2px);
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
 }
 .type-icon { font-size: 1.6rem; margin-bottom: 8px; }
 .type-name { font-size: 0.9rem; font-weight: 700; margin-bottom: 4px; }
-.type-range { font-size: 0.77rem; color: var(--text-muted); line-height: 1.4; }
+.type-range { font-size: 0.77rem; color: var(--text-muted); }
 
 .type-card[data-type="solar"] .type-name { color: var(--battery-green); }
 .type-card[data-type="rechargeable"] .type-name { color: var(--battery-yellow); }
@@ -316,187 +318,258 @@ body::before {
   transform: translateY(-2px);
   box-shadow: 0 8px 28px var(--primary-glow);
 }
-.btn-secondary {
-  background: var(--surface);
-  color: var(--text);
-  border: 1px solid var(--border);
-}
-.btn-secondary:hover { background: var(--surface-hover); }
 .btn:disabled { opacity: 0.4; cursor: not-allowed; transform: none; }
 
-/* ===== Quiz Screen ===== */
-.quiz-header { margin-bottom: 20px; }
-.progress-info {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 10px;
-}
-.progress-label {
-  font-size: 0.82rem;
-  color: var(--text-muted);
-}
-.progress-count {
-  font-size: 0.9rem;
-  font-weight: 700;
-  color: var(--primary);
-}
-.progress-bar-wrap {
-  height: 6px;
-  background: var(--surface);
-  border-radius: 4px;
-  overflow: hidden;
-}
-.progress-fill {
-  height: 100%;
-  background: linear-gradient(90deg, var(--primary), var(--primary-light));
-  border-radius: 4px;
-  transition: width 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-}
+/* ======================================
+   BATTERY DASHBOARD (New Mechanic)
+   ====================================== */
 
-.question-card {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  padding: 24px;
-  margin-bottom: 20px;
-  backdrop-filter: blur(12px);
-}
-.question-number {
-  font-size: 0.8rem;
-  color: var(--primary);
-  font-weight: 700;
-  margin-bottom: 12px;
-}
-.question-text {
-  font-size: 1.1rem;
-  font-weight: 600;
-  line-height: 1.5;
-  color: var(--text);
-}
-
-.options-wrap {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  margin-bottom: 20px;
-}
-.option-btn {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  padding: 14px 18px;
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-sm);
-  cursor: pointer;
-  transition: all 0.2s;
-  color: var(--text);
-  font-size: 0.92rem;
-  font-family: inherit;
-  text-align: left;
-  min-height: 52px;
-  line-height: 1.4;
-}
-.option-btn:hover {
-  background: var(--surface-hover);
-  border-color: var(--border-focus);
-  transform: translateX(4px);
-}
-.option-btn.selected {
-  background: var(--primary-glow);
-  border-color: var(--primary);
-  color: var(--primary);
-}
-.option-btn.selected .option-letter {
-  background: var(--primary);
-  color: #000;
-}
-.option-letter {
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  background: var(--surface);
-  border: 1px solid var(--border);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 700;
-  font-size: 0.82rem;
-  flex-shrink: 0;
-  transition: all 0.2s;
-}
-.option-text { flex: 1; }
-
-.quiz-nav {
-  display: flex;
-  gap: 12px;
-}
-.quiz-nav .btn { flex: 1; }
-
-/* ===== Loading / Charging Screen ===== */
-.charging-screen {
+.dashboard-battery {
   text-align: center;
-  padding: 60px 20px;
-}
-.charging-battery {
-  width: 120px;
-  height: 200px;
-  border: 4px solid var(--primary);
-  border-radius: 12px;
-  margin: 0 auto 24px;
+  margin-bottom: 16px;
   position: relative;
-  overflow: hidden;
 }
-.charging-battery::before {
-  content: '';
-  position: absolute;
-  top: -12px;
-  left: 50%;
-  transform: translateX(-50%);
+
+.dash-battery-wrap {
+  display: inline-block;
+  position: relative;
+}
+
+.dash-battery-cap {
   width: 40px;
   height: 12px;
-  background: var(--primary);
+  background: var(--border);
   border-radius: 4px 4px 0 0;
+  margin: 0 auto;
+  transition: background 0.5s;
 }
-.charging-fill {
+
+.dash-battery-body {
+  width: 100px;
+  height: 160px;
+  border: 3px solid var(--border);
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  background: var(--surface);
+  transition: border-color 0.5s;
+}
+
+.dash-battery-fill {
   position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 0%;
-  background: linear-gradient(to top, var(--primary), var(--primary-light));
-  transition: height 2s cubic-bezier(0.4, 0, 0.2, 1);
-  animation: chargingGlow 1.5s ease-in-out infinite alternate;
+  bottom: 3px;
+  left: 3px;
+  right: 3px;
+  height: 50%;
+  border-radius: 5px;
+  background: linear-gradient(to top, var(--battery-yellow), var(--primary-light));
+  transition: height 0.6s cubic-bezier(0.34, 1.56, 0.64, 1), background 0.5s;
 }
-.charging-bolt {
+
+.dash-battery-fill::after {
+  content: '';
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 16px,
+    rgba(255, 255, 255, 0.06) 16px,
+    rgba(255, 255, 255, 0.06) 18px
+  );
+}
+
+.dash-battery-percent {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 3rem;
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: #fff;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
   z-index: 2;
-  filter: drop-shadow(0 0 10px rgba(245, 158, 11, 0.8));
-  animation: boltPulse 0.8s ease-in-out infinite alternate;
 }
-.charging-text {
+
+/* Battery color states */
+.dash-battery-fill.level-critical { background: linear-gradient(to top, #DC2626, #EF4444); }
+.dash-battery-fill.level-low { background: linear-gradient(to top, #EA580C, #F97316); }
+.dash-battery-fill.level-medium { background: linear-gradient(to top, #D97706, #FBBF24); }
+.dash-battery-fill.level-high { background: linear-gradient(to top, #16A34A, #22C55E); }
+
+.dash-battery-body.level-critical { border-color: var(--battery-red); }
+.dash-battery-body.level-low { border-color: var(--battery-orange); }
+.dash-battery-body.level-medium { border-color: var(--battery-yellow); }
+.dash-battery-body.level-high { border-color: var(--battery-green); }
+
+.dash-battery-cap.level-critical { background: var(--battery-red); }
+.dash-battery-cap.level-low { background: var(--battery-orange); }
+.dash-battery-cap.level-medium { background: var(--battery-yellow); }
+.dash-battery-cap.level-high { background: var(--battery-green); }
+
+/* Floating text animation */
+.float-container {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 200px;
+  height: 160px;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.float-text {
+  position: absolute;
   font-size: 1.2rem;
+  font-weight: 800;
+  animation: floatUp 1s ease-out forwards;
+  white-space: nowrap;
+}
+
+.float-text.charge {
+  color: var(--charge-color);
+  left: 60%;
+}
+
+.float-text.drain {
+  color: var(--drain-color);
+  left: 60%;
+}
+
+@keyframes floatUp {
+  0% { opacity: 1; transform: translateY(60px); }
+  100% { opacity: 0; transform: translateY(-20px); }
+}
+
+/* Battery pulse on change */
+.dash-battery-body.pulse-charge {
+  animation: pulseCharge 0.4s ease;
+}
+
+.dash-battery-body.pulse-drain {
+  animation: pulseDrain 0.4s ease;
+}
+
+@keyframes pulseCharge {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(34, 197, 94, 0); }
+  50% { box-shadow: 0 0 20px 4px rgba(34, 197, 94, 0.4); }
+}
+
+@keyframes pulseDrain {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(239, 68, 68, 0); }
+  50% { box-shadow: 0 0 20px 4px rgba(239, 68, 68, 0.4); }
+}
+
+/* Progress dots */
+.dash-progress {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.dash-progress span {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  font-weight: 600;
+}
+
+/* Scenario card */
+.scenario-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 24px 20px;
+  text-align: center;
+  margin-bottom: 20px;
+  backdrop-filter: blur(12px);
+  transition: all 0.3s ease;
+}
+
+.scenario-card.entering {
+  animation: cardSlideIn 0.35s ease;
+}
+
+@keyframes cardSlideIn {
+  from { opacity: 0; transform: translateX(40px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+.scenario-emoji {
+  font-size: 2.5rem;
+  margin-bottom: 12px;
+}
+
+.scenario-title {
+  font-size: 1.1rem;
   font-weight: 700;
-  color: var(--primary);
-  animation: dotPulse 1.5s steps(3) infinite;
+  margin-bottom: 8px;
+  color: var(--text);
 }
-@keyframes chargingGlow {
-  from { box-shadow: inset 0 0 20px rgba(245, 158, 11, 0.3); }
-  to { box-shadow: inset 0 0 40px rgba(245, 158, 11, 0.6); }
+
+.scenario-desc {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  line-height: 1.6;
 }
-@keyframes boltPulse {
-  from { opacity: 0.6; transform: translate(-50%, -50%) scale(0.9); }
-  to { opacity: 1; transform: translate(-50%, -50%) scale(1.1); }
+
+/* Choice buttons */
+.choice-buttons {
+  display: flex;
+  gap: 12px;
 }
-@keyframes dotPulse {
-  0% { content: '.'; }
-  33% { content: '..'; }
-  66% { content: '...'; }
+
+.choice-btn {
+  flex: 1;
+  padding: 16px 12px;
+  border: 2px solid var(--border);
+  border-radius: var(--radius);
+  font-size: 0.95rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-family: inherit;
+  min-height: 56px;
+  background: var(--surface);
+  color: var(--text);
+}
+
+.choice-charge {
+  border-color: rgba(34, 197, 94, 0.3);
+}
+
+.choice-charge:hover {
+  background: rgba(34, 197, 94, 0.15);
+  border-color: var(--charge-color);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 20px rgba(34, 197, 94, 0.3);
+}
+
+.choice-charge:active {
+  transform: translateY(0);
+  background: rgba(34, 197, 94, 0.25);
+}
+
+.choice-drain {
+  border-color: rgba(239, 68, 68, 0.3);
+}
+
+.choice-drain:hover {
+  background: rgba(239, 68, 68, 0.15);
+  border-color: var(--drain-color);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 20px rgba(239, 68, 68, 0.3);
+}
+
+.choice-drain:active {
+  transform: translateY(0);
+  background: rgba(239, 68, 68, 0.25);
+}
+
+.choice-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+  transform: none !important;
 }
 
 /* ===== Result Screen ===== */
@@ -505,7 +578,6 @@ body::before {
   padding: 28px 0 20px;
 }
 
-/* Battery visualization */
 .battery-container {
   display: flex;
   justify-content: center;
@@ -577,7 +649,6 @@ body::before {
   color: #fff;
   text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
   z-index: 2;
-  mix-blend-mode: normal;
 }
 .battery-bolt {
   position: absolute;
@@ -589,7 +660,6 @@ body::before {
   filter: drop-shadow(0 0 6px rgba(0, 0, 0, 0.5));
 }
 
-/* Battery color states */
 .battery-fill-area.level-critical { background: linear-gradient(to top, #DC2626, #EF4444); }
 .battery-fill-area.level-low { background: linear-gradient(to top, #EA580C, #F97316); }
 .battery-fill-area.level-medium { background: linear-gradient(to top, #D97706, #FBBF24); }
@@ -605,7 +675,6 @@ body::before {
 .battery-cap.level-medium { background: var(--battery-yellow); }
 .battery-cap.level-high { background: var(--battery-green); }
 
-/* Type badge */
 .type-badge {
   display: inline-flex;
   align-items: center;
@@ -630,7 +699,6 @@ body::before {
   line-height: 1.6;
 }
 
-/* Result detail cards */
 .section-title {
   font-size: 1rem;
   font-weight: 700;
@@ -678,7 +746,6 @@ body::before {
   line-height: 1.5;
 }
 
-/* Compatible types */
 .compatible-tags {
   display: flex;
   gap: 8px;
@@ -695,7 +762,6 @@ body::before {
   color: var(--primary);
 }
 
-/* Share */
 .share-row {
   display: flex;
   gap: 10px;
@@ -725,6 +791,8 @@ body::before {
 .share-btn.twitter { background: #000; color: #fff; border-color: #000; }
 .share-btn.twitter:hover { background: #1a1a1a; }
 
+#cross-promo-container { margin-top: 32px; }
+
 /* ===== Responsive ===== */
 @media (max-width: 400px) {
   .types-grid { grid-template-columns: 1fr; }
@@ -732,6 +800,10 @@ body::before {
   .battery-visual { width: 110px; height: 200px; }
   .battery-body { width: 100px; height: 180px; left: 5px; }
   .battery-percent { font-size: 1.8rem; }
+  .dash-battery-body { width: 80px; height: 130px; }
+  .dash-battery-cap { width: 32px; }
+  .dash-battery-percent { font-size: 1.3rem; }
+  .choice-btn { font-size: 0.85rem; padding: 14px 8px; }
 }
 
 /* ===== Animations ===== */
@@ -749,5 +821,5 @@ body::before {
   }
   .screen.active { animation: none; }
   .battery-fill-area { transition: none; }
-  .charging-fill { transition: none; }
+  .dash-battery-fill { transition: none; }
 }
