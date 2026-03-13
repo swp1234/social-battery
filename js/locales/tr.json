@@ -143,5 +143,19 @@
     "copyUrl": "📋 Linki Kopyala",
     "copied": "Kopyalandı!",
     "twitterText": "Sosyal bataryam %{percent}! Tipim: {type} 🔋 Senin sosyal bataryan kaç?"
+  },
+  "engage": {
+    "result1": "☀️ Güneş Paneli -- Sosyal Güç Merkezi (76-100%)",
+    "result2": "🔋 Şarj Edilebilir -- Dengeli Adaptör (51-75%)",
+    "result3": "🔌 Enerji Tasarrufu -- Verimli İçe Dönük (26-50%)",
+    "result4": "🪫 Acil Durum Modu -- Aşırı Hassas (0-25%)",
+    "socialProof": "1.980+ kişi sosyal bataryasını kontrol etti"
+  },
+  "about": {
+    "toggle": "Sosyal Batarya Testi Hakkında",
+    "heading1": "Gerçek Zamanlı Batarya Nasıl Çalışır",
+    "text1": "Bu test sürpriz partilerden tek başına yürüyüşe kadar 12 sosyal senaryo sunar. Her durum için enerjinizi şarj edip etmediğini seçersiniz. Ekrandaki batarya gerçek zamanlı tepki vererek sosyal enerji kalıplarınızı anında görselleştirir.",
+    "heading2": "Sosyal Enerjiyi Anlamak",
+    "text2": "Sosyal enerji kişiden kişiye değişir. Bazıları büyük gruplarda enerji toplarken diğerleri sessiz yalnızlığı tercih eder. Hiçbiri daha iyi veya daha kötü değildir -- sosyal bataryanızı anlamak zamanınızı planlamanıza ve sosyal tükenmişlikten kaçınmanıza yardımcı olur."
   }
 }

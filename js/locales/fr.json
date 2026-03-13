@@ -143,5 +143,19 @@
     "copyUrl": "📋 Copier le Lien",
     "copied": "Copié !",
     "twitterText": "Ma batterie sociale est à {percent}% ! Type : {type} 🔋 Et la tienne ?"
+  },
+  "engage": {
+    "result1": "☀️ Panneau Solaire -- Puissance Sociale (76-100%)",
+    "result2": "🔋 Rechargeable -- Adaptateur Équilibré (51-75%)",
+    "result3": "🔌 Économie d'Énergie -- Introverti Efficace (26-50%)",
+    "result4": "🪫 Mode Urgence -- Ultra-Sensible (0-25%)",
+    "socialProof": "1 980+ personnes ont vérifié leur batterie sociale"
+  },
+  "about": {
+    "toggle": "À propos du test de batterie sociale",
+    "heading1": "Comment fonctionne la batterie en temps réel",
+    "text1": "Ce test présente 12 scénarios sociaux, des fêtes surprises aux randonnées en solo. Pour chaque situation, vous choisissez si elle vous recharge ou vous épuise. La batterie à l'écran réagit en temps réel, montrant vos schémas d'énergie sociale.",
+    "heading2": "Comprendre l'énergie sociale",
+    "text2": "L'énergie sociale varie d'une personne à l'autre. Certaines personnes s'épanouissent dans les grands groupes tandis que d'autres préfèrent la solitude tranquille. Aucun n'est meilleur ni pire -- comprendre votre batterie sociale vous aide à planifier votre temps et à éviter l'épuisement social."
   }
 }

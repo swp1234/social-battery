@@ -143,5 +143,19 @@
     "copyUrl": "📋 Salin Link",
     "copied": "Tersalin!",
     "twitterText": "Baterai sosialku di {percent}%! Tipe: {type} 🔋 Berapa baterai sosialmu?"
+  },
+  "engage": {
+    "result1": "☀️ Panel Surya -- Pembangkit Sosial (76-100%)",
+    "result2": "🔋 Isi Ulang -- Adaptor Seimbang (51-75%)",
+    "result3": "🔌 Hemat Energi -- Introvert Efisien (26-50%)",
+    "result4": "🪫 Mode Darurat -- Ultra-Sensitif (0-25%)",
+    "socialProof": "1.980+ orang memeriksa baterai sosial mereka"
+  },
+  "about": {
+    "toggle": "Tentang Tes Baterai Sosial",
+    "heading1": "Cara Kerja Baterai Real-Time",
+    "text1": "Tes ini menyajikan 12 skenario sosial dari pesta kejutan hingga hiking sendiri. Untuk setiap situasi, Anda memilih apakah itu mengisi atau menguras energi Anda. Baterai di layar bereaksi secara real-time, menunjukkan pola energi sosial Anda.",
+    "heading2": "Memahami Energi Sosial",
+    "text2": "Energi sosial berbeda untuk setiap orang. Beberapa orang berkembang dalam kelompok besar sementara yang lain lebih suka kesendirian yang tenang. Tidak ada yang lebih baik atau lebih buruk -- memahami baterai sosial Anda membantu merencanakan waktu dan menghindari kelelahan sosial."
   }
 }

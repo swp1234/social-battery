@@ -143,5 +143,19 @@
     "copyUrl": "📋 Copy Link",
     "copied": "Copied!",
     "twitterText": "My social battery is at {percent}%! Type: {type} 🔋 What's yours?"
+  },
+  "engage": {
+    "result1": "☀️ Solar Panel -- Social Powerhouse (76-100%)",
+    "result2": "🔋 Rechargeable -- Balanced Adapter (51-75%)",
+    "result3": "🔌 Energy Saver -- Efficient Introvert (26-50%)",
+    "result4": "🪫 Emergency Mode -- Ultra-Sensitive (0-25%)",
+    "socialProof": "1,980+ people checked their social battery"
+  },
+  "about": {
+    "toggle": "About the Social Battery Test",
+    "heading1": "How the Real-Time Battery Works",
+    "text1": "This test presents 12 social scenarios ranging from surprise parties to solo hikes. For each situation, you choose whether it charges or drains your energy. Your on-screen battery reacts in real time, giving you an instant visual of your social energy patterns.",
+    "heading2": "Understanding Social Energy",
+    "text2": "Social energy varies from person to person. Some people thrive in large groups while others prefer quiet solitude. Neither is better or worse -- understanding your social battery helps you plan your time, set boundaries, and avoid social burnout."
   }
 }

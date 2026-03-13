@@ -74,6 +74,54 @@
 }
   </script>
 
+  <!-- BreadcrumbList -->
+  <script type="application/ld+json">
+  {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://dopabrain.com/" },
+          { "@type": "ListItem", "position": 2, "name": "Tests", "item": "https://dopabrain.com/portal/" },
+          { "@type": "ListItem", "position": 3, "name": "Personality Tests", "item": "https://dopabrain.com/portal/" },
+          { "@type": "ListItem", "position": 4, "name": "Social Battery Test", "item": "https://dopabrain.com/social-battery/" }
+      ]
+  }
+  </script>
+  <!-- FAQPage -->
+  <script type="application/ld+json">
+  {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+          {
+              "@type": "Question",
+              "name": "What is a social battery test?",
+              "acceptedAnswer": { "@type": "Answer", "text": "A social battery test measures how social interactions affect your energy levels. Through 12 real-life scenarios, you indicate whether each situation charges or drains you. Your final battery level reveals whether you're a Social Solar Panel, Rechargeable Battery, Energy Saver, or in Emergency Mode." }
+          },
+          {
+              "@type": "Question",
+              "name": "What does social battery mean?",
+              "acceptedAnswer": { "@type": "Answer", "text": "Social battery is a metaphor for your limited social energy. Just like a phone battery, your capacity for social interaction can be full or drained. Extroverts tend to recharge through socializing, while introverts recharge through alone time. Understanding your social battery helps you manage energy and avoid burnout." }
+          },
+          {
+              "@type": "Question",
+              "name": "How does the real-time battery mechanic work?",
+              "acceptedAnswer": { "@type": "Answer", "text": "As you respond to each of the 12 scenarios, your on-screen battery visually charges up or drains down in real time. Choosing 'Charges Me' adds energy, while 'Drains Me' removes it. The final battery percentage determines your social energy type." }
+          },
+          {
+              "@type": "Question",
+              "name": "Is the social battery test scientifically validated?",
+              "acceptedAnswer": { "@type": "Answer", "text": "This test is designed for entertainment and self-awareness, not clinical diagnosis. It draws from introversion-extroversion psychology concepts to help you understand your social energy patterns. For professional assessment, consult a licensed psychologist." }
+          },
+          {
+              "@type": "Question",
+              "name": "Can I improve my social battery capacity?",
+              "acceptedAnswer": { "@type": "Answer", "text": "Yes! While your baseline social energy type tends to be stable, you can improve capacity through gradual exposure, better self-care, setting boundaries, and understanding your personal recharge methods. Taking this test regularly can show how your social energy evolves." }
+          }
+      ]
+  }
+  </script>
+
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -149,8 +197,21 @@
         </div>
       </div>
 
+      <!-- Result Preview Carousel -->
+      <div class="result-carousel" aria-live="polite">
+        <div class="carousel-track">
+          <div class="carousel-item" data-i18n="engage.result1">☀️ Solar Panel -- Social Powerhouse (76-100%)</div>
+          <div class="carousel-item" data-i18n="engage.result2">🔋 Rechargeable -- Balanced Adapter (51-75%)</div>
+          <div class="carousel-item" data-i18n="engage.result3">🔌 Energy Saver -- Efficient Introvert (26-50%)</div>
+          <div class="carousel-item" data-i18n="engage.result4">🪫 Emergency Mode -- Ultra-Sensitive (0-25%)</div>
+        </div>
+      </div>
+
+      <!-- Social Proof Badge -->
+      <div class="social-proof-badge" data-i18n="engage.socialProof">1,980+ people checked their social battery</div>
+
       <p class="disclaimer" data-i18n="app.disclaimer">For entertainment only. Not a clinical diagnosis.</p>
-      <button class="btn btn-primary" id="btn-start" data-i18n="app.start">⚡ Start Test</button>
+      <button class="btn btn-primary btn-pulse" id="btn-start" data-i18n="app.start">Check My Battery - Free ⚡</button>
     </section>
 
     <!-- Screen: Battery Dashboard -->
@@ -238,6 +299,19 @@
       <div id="cross-promo-container"></div>
     </section>
   </div>
+
+  <!-- About Section -->
+  <section class="about-section collapsible-section" id="about-section">
+    <details>
+      <summary data-i18n="about.toggle">About the Social Battery Test</summary>
+      <div class="about-content">
+        <h2 data-i18n="about.heading1">How the Real-Time Battery Works</h2>
+        <p data-i18n="about.text1">This test presents 12 social scenarios ranging from surprise parties to solo hikes. For each situation, you choose whether it charges or drains your energy. Your on-screen battery reacts in real time, giving you an instant visual of your social energy patterns.</p>
+        <h2 data-i18n="about.heading2">Understanding Social Energy</h2>
+        <p data-i18n="about.text2">Social energy varies from person to person. Some people thrive in large groups while others prefer quiet solitude. Neither is better or worse -- understanding your social battery helps you plan your time, set boundaries, and avoid social burnout.</p>
+      </div>
+    </details>
+  </section>
 
   <script src="js/i18n.js"></script>
   <script src="js/app.js"></script>

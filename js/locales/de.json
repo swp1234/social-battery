@@ -143,5 +143,19 @@
     "copyUrl": "📋 Link kopieren",
     "copied": "Kopiert!",
     "twitterText": "Mein Sozialakku steht bei {percent}%! Typ: {type} 🔋 Wie steht deiner?"
+  },
+  "engage": {
+    "result1": "☀️ Solarpanel -- Soziales Kraftpaket (76-100%)",
+    "result2": "🔋 Wiederaufladbar -- Ausgeglichener Adapter (51-75%)",
+    "result3": "🔌 Energiesparmodus -- Effizienter Introvertierter (26-50%)",
+    "result4": "🪫 Notfallmodus -- Hochsensibel (0-25%)",
+    "socialProof": "1.980+ Menschen haben ihren Sozialakku überprüft"
+  },
+  "about": {
+    "toggle": "Über den Sozialakku-Test",
+    "heading1": "So funktioniert der Echtzeit-Akku",
+    "text1": "Dieser Test bietet 12 soziale Szenarien von Überraschungspartys bis zu Solo-Wanderungen. Für jede Situation wählen Sie, ob sie Sie auflädt oder entlädt. Der Akku auf dem Bildschirm reagiert in Echtzeit und zeigt Ihre sozialen Energiemuster.",
+    "heading2": "Soziale Energie verstehen",
+    "text2": "Soziale Energie variiert von Person zu Person. Manche blühen in großen Gruppen auf, andere bevorzugen ruhige Einsamkeit. Keines ist besser oder schlechter -- Ihren Sozialakku zu verstehen hilft bei der Zeitplanung und vermeidet soziales Burnout."
   }
 }
