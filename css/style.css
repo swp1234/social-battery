@@ -793,6 +793,19 @@ body::before {
 
 #cross-promo-container { margin-top: 32px; }
 
+/* ===== Related Tests ===== */
+.related-tests { margin-top: 24px; padding-top: 20px; border-top: 1px solid rgba(255,255,255,0.1); width: 100%; max-width: 420px; }
+.related-tests h3 { font-size: 16px; color: var(--text-muted); margin-bottom: 12px; text-align: center; }
+.related-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.related-card { display: flex; flex-direction: column; align-items: center; gap: 6px; padding: 14px 8px; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.08); border-radius: 12px; text-decoration: none; color: var(--text); transition: transform 0.2s, border-color 0.2s; }
+.related-card:hover { transform: translateY(-2px); border-color: var(--card-color, #3498db); }
+.related-emoji { font-size: 28px; }
+.related-name { font-size: 12px; font-weight: 600; text-align: center; color: var(--text-muted); }
+[data-theme="light"] .related-card { background: rgba(0,0,0,0.04); border-color: rgba(0,0,0,0.1); }
+[data-theme="light"] .related-card:hover { background: rgba(0,0,0,0.06); }
+.percentile-stat { text-align: center; margin: 12px 0; font-size: 13px; color: var(--text-muted); }
+.percentile-stat strong { color: var(--primary); font-size: 15px; }
+
 /* ===== Responsive ===== */
 @media (max-width: 400px) {
   .types-grid { grid-template-columns: 1fr; }

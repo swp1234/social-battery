@@ -128,7 +128,15 @@
     "rechargeMethod": "Recarga Recomendada",
     "compatible": "Tipos Compatíveis",
     "compatibleTypes": "Melhores Combinações",
-    "retake": "⚡ Tentar Novamente"
+    "retake": "⚡ Tentar Novamente",
+    "moreTests": "Explorar mais testes",
+    "percentileStat": "Apenas <strong>{percent}%</strong> compartilham seu nível de bateria social"
+  },
+  "related": {
+    "hspTest": "Teste HSP",
+    "stressCheck": "Verificação de Estresse",
+    "emotionTemp": "Temperatura Emocional",
+    "emotionIceberg": "Iceberg Emocional"
   },
   "share": {
     "twitter": "𝕏 Compartilhar",

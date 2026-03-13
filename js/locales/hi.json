@@ -128,7 +128,15 @@
     "rechargeMethod": "अनुशंसित रिचार्ज विधि",
     "compatible": "संगत प्रकार",
     "compatibleTypes": "सबसे अच्छी जोड़ी",
-    "retake": "⚡ दोबारा टेस्ट करें"
+    "retake": "⚡ दोबारा टेस्ट करें",
+    "moreTests": "और टेस्ट देखें",
+    "percentileStat": "केवल <strong>{percent}%</strong> प्रतिभागियों का आपके जैसा सामाजिक बैटरी स्तर है"
+  },
+  "related": {
+    "hspTest": "HSP परीक्षण",
+    "stressCheck": "तनाव जांच",
+    "emotionTemp": "भावना तापमान",
+    "emotionIceberg": "भावना हिमशैल"
   },
   "share": {
     "twitter": "𝕏 शेयर",

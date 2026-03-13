@@ -128,7 +128,15 @@
     "rechargeMethod": "Рекомендуемый способ подзарядки",
     "compatible": "Совместимые типы",
     "compatibleTypes": "Лучшие пары",
-    "retake": "⚡ Пройти снова"
+    "retake": "⚡ Пройти снова",
+    "moreTests": "Ещё тесты",
+    "percentileStat": "Только <strong>{percent}%</strong> участников имеют такой же уровень социальной батареи"
+  },
+  "related": {
+    "hspTest": "HSP Тест",
+    "stressCheck": "Проверка стресса",
+    "emotionTemp": "Температура эмоций",
+    "emotionIceberg": "Айсберг эмоций"
   },
   "share": {
     "twitter": "𝕏 Поделиться",

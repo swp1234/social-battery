@@ -128,7 +128,15 @@
     "rechargeMethod": "おすすめの充電方法",
     "compatible": "相性の良いタイプ",
     "compatibleTypes": "ベストマッチ",
-    "retake": "⚡ もう一度"
+    "retake": "⚡ もう一度",
+    "moreTests": "もっとテストを見る",
+    "percentileStat": "参加者の<strong>{percent}%</strong>だけがあなたと同じソーシャルバッテリーレベルです"
+  },
+  "related": {
+    "hspTest": "HSPテスト",
+    "stressCheck": "ストレスチェック",
+    "emotionTemp": "感情温度",
+    "emotionIceberg": "感情の氷山"
   },
   "share": {
     "twitter": "𝕏 シェア",

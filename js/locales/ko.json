@@ -128,7 +128,15 @@
     "rechargeMethod": "추천 충전 방법",
     "compatible": "호환되는 유형",
     "compatibleTypes": "잘 맞는 유형",
-    "retake": "⚡ 다시 하기"
+    "retake": "⚡ 다시 하기",
+    "moreTests": "더 많은 테스트",
+    "percentileStat": "참가자의 <strong>{percent}%</strong>만이 당신과 같은 소셜 배터리 수준입니다"
+  },
+  "related": {
+    "hspTest": "HSP 테스트",
+    "stressCheck": "스트레스 체크",
+    "emotionTemp": "감정 온도",
+    "emotionIceberg": "감정 빙산"
   },
   "share": {
     "twitter": "𝕏 공유",

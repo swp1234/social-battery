@@ -128,7 +128,15 @@
     "rechargeMethod": "Rekomendasi Cara Isi Ulang",
     "compatible": "Tipe yang Cocok",
     "compatibleTypes": "Pasangan Terbaik",
-    "retake": "⚡ Coba Lagi"
+    "retake": "⚡ Coba Lagi",
+    "moreTests": "Jelajahi tes lainnya",
+    "percentileStat": "Hanya <strong>{percent}%</strong> peserta memiliki level baterai sosial yang sama"
+  },
+  "related": {
+    "hspTest": "Tes HSP",
+    "stressCheck": "Cek Stres",
+    "emotionTemp": "Suhu Emosi",
+    "emotionIceberg": "Gunung Es Emosi"
   },
   "share": {
     "twitter": "𝕏 Bagikan",

@@ -212,18 +212,30 @@
 
       <button class="btn btn-primary" id="btn-retake" data-i18n="result.retake">⚡ Try Again</button>
 
-      <div id="cross-promo-container"></div>
-
-      <section class="related-games" style="margin:20px auto;padding:16px;max-width:480px;background:rgba(255,255,255,0.05);border-radius:12px;">
-        <p style="font-size:13px;color:#aaa;margin:0 0 8px 0;font-weight:600;">More Free Tests</p>
-        <div style="display:flex;gap:8px;flex-wrap:wrap;">
-          <a href="/stress-type/" style="padding:6px 12px;background:rgba(255,255,255,0.08);border-radius:8px;text-decoration:none;color:inherit;font-size:13px;">😰 Stress Type</a>
-          <a href="/hsp-test/" style="padding:6px 12px;background:rgba(255,255,255,0.08);border-radius:8px;text-decoration:none;color:inherit;font-size:13px;">🌸 HSP Test</a>
-          <a href="/eq-test/" style="padding:6px 12px;background:rgba(255,255,255,0.08);border-radius:8px;text-decoration:none;color:inherit;font-size:13px;">🧠 EQ Test</a>
-          <a href="/attachment-style/" style="padding:6px 12px;background:rgba(255,255,255,0.08);border-radius:8px;text-decoration:none;color:inherit;font-size:13px;">🔗 Attachment Style</a>
-          <a href="/npc-test/" style="padding:6px 12px;background:rgba(255,255,255,0.08);border-radius:8px;text-decoration:none;color:inherit;font-size:13px;">🎮 NPC Test</a>
+      <p class="percentile-stat" id="percentile-stat"></p>
+      <div class="related-tests">
+        <h3 data-i18n="result.moreTests">Explore More Tests</h3>
+        <div class="related-grid">
+          <a href="/hsp-test/" class="related-card" style="--card-color: #7c3aed">
+            <span class="related-emoji">🧠</span>
+            <span class="related-name" data-i18n="related.hspTest">HSP Test</span>
+          </a>
+          <a href="/stress-check/" class="related-card" style="--card-color: #e74c3c">
+            <span class="related-emoji">💆</span>
+            <span class="related-name" data-i18n="related.stressCheck">Stress Check</span>
+          </a>
+          <a href="/emotion-temp/" class="related-card" style="--card-color: #ff6b35">
+            <span class="related-emoji">🌡️</span>
+            <span class="related-name" data-i18n="related.emotionTemp">Emotion Temperature</span>
+          </a>
+          <a href="/emotion-iceberg/" class="related-card" style="--card-color: #2E86AB">
+            <span class="related-emoji">🧊</span>
+            <span class="related-name" data-i18n="related.emotionIceberg">Emotion Iceberg</span>
+          </a>
         </div>
-      </section>
+      </div>
+
+      <div id="cross-promo-container"></div>
     </section>
   </div>
 

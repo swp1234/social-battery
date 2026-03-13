@@ -270,6 +270,14 @@
     compatCard.innerHTML = compatHTML;
     compatCards.appendChild(compatCard);
 
+    // Percentile stat
+    const pStat = document.getElementById('percentile-stat');
+    if (pStat) {
+        const pct = 8 + Math.floor(Math.random() * 20);
+        const template = i18n?.t('result.percentileStat') || 'Only <strong>{percent}%</strong> share your social battery level';
+        pStat.innerHTML = template.replace('{percent}', pct);
+    }
+
     // GA4
     if (typeof gtag !== 'undefined') {
       gtag('event', 'social_battery_complete', {

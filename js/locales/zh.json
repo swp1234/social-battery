@@ -128,7 +128,15 @@
     "rechargeMethod": "推荐充电方式",
     "compatible": "兼容类型",
     "compatibleTypes": "最佳搭配",
-    "retake": "⚡ 重新测试"
+    "retake": "⚡ 重新测试",
+    "moreTests": "探索更多测试",
+    "percentileStat": "仅 <strong>{percent}%</strong> 的参与者拥有与你相同的社交电量"
+  },
+  "related": {
+    "hspTest": "HSP测试",
+    "stressCheck": "压力检测",
+    "emotionTemp": "情感温度",
+    "emotionIceberg": "情感冰山"
   },
   "share": {
     "twitter": "𝕏 分享",

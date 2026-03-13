@@ -128,7 +128,15 @@
     "rechargeMethod": "Önerilen Şarj Yöntemi",
     "compatible": "Uyumlu Tipler",
     "compatibleTypes": "En İyi Eşleşmeler",
-    "retake": "⚡ Tekrar Dene"
+    "retake": "⚡ Tekrar Dene",
+    "moreTests": "Daha fazla test keşfet",
+    "percentileStat": "Katılımcıların sadece <strong>{percent}%</strong>'i senin sosyal batarya seviyene sahip"
+  },
+  "related": {
+    "hspTest": "HSP Testi",
+    "stressCheck": "Stres Kontrolü",
+    "emotionTemp": "Duygu Sıcaklığı",
+    "emotionIceberg": "Duygu Buzdağı"
   },
   "share": {
     "twitter": "𝕏 Paylaş",
