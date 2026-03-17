@@ -97,28 +97,40 @@
       "desc": "¡Eres una fuente de energía social que se carga rodeada de gente! Las conversaciones y reuniones son tu combustible — estar a solas en realidad te agota.",
       "ratio": "Social 70% : Solo/a 30%",
       "recharge": "Conversaciones animadas, fiestas, actividades en grupo, conocer gente nueva",
-      "compatible": ["Batería Recargable", "Panel Solar"]
+      "compatible": [
+        "Batería Recargable",
+        "Panel Solar"
+      ]
     },
     "rechargeable": {
       "name": "🔋 Batería Recargable",
       "desc": "¡Encuentras el equilibrio perfecto entre tiempo social y tiempo a solas! Gestionas tu energía de forma flexible según la situación.",
       "ratio": "Social 50% : Solo/a 50%",
       "recharge": "Pequeñas reuniones, charlas profundas con amigos cercanos, tiempo en cafetería, actividades al aire libre",
-      "compatible": ["Panel Solar", "Ahorro de Energía"]
+      "compatible": [
+        "Panel Solar",
+        "Ahorro de Energía"
+      ]
     },
     "energySaver": {
       "name": "🔌 Ahorro de Energía",
       "desc": "¡Un introvertido eficiente que gestiona sabiamente su energía! Prefieres conexiones profundas con pocos y realmente recargas en soledad.",
       "ratio": "Social 30% : Solo/a 70%",
       "recharge": "Lectura, paseos en solitario, música, hobbies, espacios tranquilos",
-      "compatible": ["Batería Recargable", "Modo Emergencia"]
+      "compatible": [
+        "Batería Recargable",
+        "Modo Emergencia"
+      ]
     },
     "emergency": {
       "name": "🪫 Modo Emergencia",
       "desc": "¡Un detector de energía ultrasensible! Las situaciones sociales agotan tu batería rápidamente, y el tiempo a solas significativo es absolutamente esencial.",
       "ratio": "Social 15% : Solo/a 85%",
       "recharge": "Silencio total, paseos por la naturaleza, meditación, actividades creativas, desintoxicación digital",
-      "compatible": ["Ahorro de Energía", "Modo Emergencia"]
+      "compatible": [
+        "Ahorro de Energía",
+        "Modo Emergencia"
+      ]
     }
   },
   "result": {
@@ -136,7 +148,8 @@
     "hspTest": "Test HSP",
     "stressCheck": "Control de Estrés",
     "emotionTemp": "Temperatura Emocional",
-    "emotionIceberg": "Iceberg Emocional"
+    "emotionIceberg": "Iceberg Emocional",
+    "burnoutTest": "Test de Burnout"
   },
   "share": {
     "twitter": "𝕏 Compartir",

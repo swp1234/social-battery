@@ -97,28 +97,40 @@
       "desc": "Kamu adalah pembangkit tenaga sosial yang terisi dari orang-orang! Percakapan dan perkumpulan adalah bahan bakarmu — sendirian justru menguras energimu.",
       "ratio": "Sosial 70% : Sendiri 30%",
       "recharge": "Obrolan seru, pesta, aktivitas kelompok, kenalan baru",
-      "compatible": ["Baterai Isi Ulang", "Panel Surya"]
+      "compatible": [
+        "Baterai Isi Ulang",
+        "Panel Surya"
+      ]
     },
     "rechargeable": {
       "name": "🔋 Baterai Isi Ulang",
       "desc": "Kamu menemukan keseimbangan sempurna antara waktu sosial dan waktu sendiri! Mengelola energi secara fleksibel sesuai situasi.",
       "ratio": "Sosial 50% : Sendiri 50%",
       "recharge": "Kumpul kecil, obrolan mendalam dengan sahabat, waktu di kafe, aktivitas luar ruangan",
-      "compatible": ["Panel Surya", "Mode Hemat Energi"]
+      "compatible": [
+        "Panel Surya",
+        "Mode Hemat Energi"
+      ]
     },
     "energySaver": {
       "name": "🔌 Mode Hemat Energi",
       "desc": "Introvert efisien yang mengelola energi dengan bijak! Lebih suka hubungan mendalam dengan sedikit orang dan benar-benar mengisi ulang saat sendirian.",
       "ratio": "Sosial 30% : Sendiri 70%",
       "recharge": "Membaca, jalan-jalan sendiri, musik, hobi, ruang yang tenang",
-      "compatible": ["Baterai Isi Ulang", "Mode Darurat"]
+      "compatible": [
+        "Baterai Isi Ulang",
+        "Mode Darurat"
+      ]
     },
     "emergency": {
       "name": "🪫 Mode Darurat",
       "desc": "Detektor energi ultra sensitif! Situasi sosial menguras bateraimu dengan cepat, dan waktu sendiri yang bermakna benar-benar sangat dibutuhkan.",
       "ratio": "Sosial 15% : Sendiri 85%",
       "recharge": "Keheningan total, jalan-jalan di alam, meditasi, aktivitas kreatif, detoks digital",
-      "compatible": ["Mode Hemat Energi", "Mode Darurat"]
+      "compatible": [
+        "Mode Hemat Energi",
+        "Mode Darurat"
+      ]
     }
   },
   "result": {
@@ -136,7 +148,8 @@
     "hspTest": "Tes HSP",
     "stressCheck": "Cek Stres",
     "emotionTemp": "Suhu Emosi",
-    "emotionIceberg": "Gunung Es Emosi"
+    "emotionIceberg": "Gunung Es Emosi",
+    "burnoutTest": "Tes Burnout"
   },
   "share": {
     "twitter": "𝕏 Bagikan",

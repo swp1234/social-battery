@@ -97,28 +97,40 @@
       "desc": "İnsanlarla birlikte şarj olan bir sosyal enerji santralisin! Sohbet ve buluşmalar yakıtın — yalnız kalmak seni tüketiyor.",
       "ratio": "Sosyal 70% : Yalnız 30%",
       "recharge": "Canlı sohbetler, partiler, grup aktiviteleri, yeni insanlarla tanışma",
-      "compatible": ["Şarj Edilebilir Batarya", "Güneş Paneli"]
+      "compatible": [
+        "Şarj Edilebilir Batarya",
+        "Güneş Paneli"
+      ]
     },
     "rechargeable": {
       "name": "🔋 Şarj Edilebilir Batarya",
       "desc": "Sosyal zaman ve yalnız zaman arasında mükemmel denge kuruyorsun! Duruma göre enerjini esnek bir şekilde yönetiyorsun.",
       "ratio": "Sosyal 50% : Yalnız 50%",
       "recharge": "Küçük buluşmalar, yakın arkadaşlarla derin sohbetler, kafe zamanı, açık hava aktiviteleri",
-      "compatible": ["Güneş Paneli", "Enerji Tasarrufu"]
+      "compatible": [
+        "Güneş Paneli",
+        "Enerji Tasarrufu"
+      ]
     },
     "energySaver": {
       "name": "🔌 Enerji Tasarrufu",
       "desc": "Enerjisini akıllıca yöneten verimli bir içe dönük! Az ama derin bağlantıları tercih edersin ve gerçekten yalnızlıkta şarj olursun.",
       "ratio": "Sosyal 30% : Yalnız 70%",
       "recharge": "Okuma, yalnız yürüyüşler, müzik dinleme, hobiler, sessiz mekanlar",
-      "compatible": ["Şarj Edilebilir Batarya", "Acil Durum Modu"]
+      "compatible": [
+        "Şarj Edilebilir Batarya",
+        "Acil Durum Modu"
+      ]
     },
     "emergency": {
       "name": "🪫 Acil Durum Modu",
       "desc": "Ultra hassas bir enerji dedektörü! Sosyal durumlar bataryanı hızla tüketiyor ve anlamlı yalnız zaman kesinlikle vazgeçilmez.",
       "ratio": "Sosyal 15% : Yalnız 85%",
       "recharge": "Tam sessizlik, doğa yürüyüşleri, meditasyon, yaratıcı aktiviteler, dijital detoks",
-      "compatible": ["Enerji Tasarrufu", "Acil Durum Modu"]
+      "compatible": [
+        "Enerji Tasarrufu",
+        "Acil Durum Modu"
+      ]
     }
   },
   "result": {
@@ -136,7 +148,8 @@
     "hspTest": "HSP Testi",
     "stressCheck": "Stres Kontrolü",
     "emotionTemp": "Duygu Sıcaklığı",
-    "emotionIceberg": "Duygu Buzdağı"
+    "emotionIceberg": "Duygu Buzdağı",
+    "burnoutTest": "Tükenmişlik Testi"
   },
   "share": {
     "twitter": "𝕏 Paylaş",

@@ -97,28 +97,40 @@
       "desc": "Tu es une centrale d'énergie sociale qui se recharge au contact des gens ! Les conversations et les rassemblements sont ton carburant — la solitude te décharge.",
       "ratio": "Social 70% : Seul(e) 30%",
       "recharge": "Conversations animées, fêtes, activités de groupe, rencontrer de nouvelles personnes",
-      "compatible": ["Batterie Rechargeable", "Panneau Solaire"]
+      "compatible": [
+        "Batterie Rechargeable",
+        "Panneau Solaire"
+      ]
     },
     "rechargeable": {
       "name": "🔋 Batterie Rechargeable",
       "desc": "Tu trouves l'équilibre parfait entre vie sociale et temps seul(e) ! Tu gères ton énergie avec flexibilité selon la situation.",
       "ratio": "Social 50% : Seul(e) 50%",
       "recharge": "Petits rassemblements, discussions profondes avec des amis proches, temps au café, activités en plein air",
-      "compatible": ["Panneau Solaire", "Mode Économie"]
+      "compatible": [
+        "Panneau Solaire",
+        "Mode Économie"
+      ]
     },
     "energySaver": {
       "name": "🔌 Mode Économie",
       "desc": "Un(e) introverti(e) efficace qui gère son énergie avec sagesse ! Tu préfères des connexions profondes avec peu de personnes et tu te recharges vraiment dans la solitude.",
       "ratio": "Social 30% : Seul(e) 70%",
       "recharge": "Lecture, promenades en solo, musique, hobbies, espaces calmes",
-      "compatible": ["Batterie Rechargeable", "Mode Urgence"]
+      "compatible": [
+        "Batterie Rechargeable",
+        "Mode Urgence"
+      ]
     },
     "emergency": {
       "name": "🪫 Mode Urgence",
       "desc": "Un détecteur d'énergie ultra-sensible ! Les situations sociales épuisent ta batterie rapidement et un temps seul(e) profond et significatif est absolument indispensable.",
       "ratio": "Social 15% : Seul(e) 85%",
       "recharge": "Silence complet, promenades dans la nature, méditation, activités créatives, détox numérique",
-      "compatible": ["Mode Économie", "Mode Urgence"]
+      "compatible": [
+        "Mode Économie",
+        "Mode Urgence"
+      ]
     }
   },
   "result": {
@@ -136,7 +148,8 @@
     "hspTest": "Test HSP",
     "stressCheck": "Bilan de Stress",
     "emotionTemp": "Température Émotionnelle",
-    "emotionIceberg": "Iceberg Émotionnel"
+    "emotionIceberg": "Iceberg Émotionnel",
+    "burnoutTest": "Test de Burnout"
   },
   "share": {
     "twitter": "𝕏 Partager",

@@ -97,28 +97,40 @@
       "desc": "You're a social powerhouse that charges up around people! Conversations and gatherings are your fuel — being alone actually drains you.",
       "ratio": "Social 70% : Alone 30%",
       "recharge": "Lively conversations, parties, group activities, meeting new people",
-      "compatible": ["Rechargeable Battery", "Solar Panel"]
+      "compatible": [
+        "Rechargeable Battery",
+        "Solar Panel"
+      ]
     },
     "rechargeable": {
       "name": "🔋 Rechargeable Battery",
       "desc": "You strike the perfect balance between social and alone time! You manage your energy flexibly based on the situation.",
       "ratio": "Social 50% : Alone 50%",
       "recharge": "Small gatherings, deep talks with close friends, café time, outdoor activities",
-      "compatible": ["Solar Panel", "Energy Saver"]
+      "compatible": [
+        "Solar Panel",
+        "Energy Saver"
+      ]
     },
     "energySaver": {
       "name": "🔌 Energy Saver",
       "desc": "An efficient introvert who wisely manages their energy! You prefer deep connections with a few and truly recharge in solitude.",
       "ratio": "Social 30% : Alone 70%",
       "recharge": "Reading, solo walks, music, hobbies, quiet spaces",
-      "compatible": ["Rechargeable Battery", "Emergency Mode"]
+      "compatible": [
+        "Rechargeable Battery",
+        "Emergency Mode"
+      ]
     },
     "emergency": {
       "name": "🪫 Emergency Mode",
       "desc": "An ultra-sensitive energy detector! Social situations drain your battery fast, and meaningful alone time is absolutely essential.",
       "ratio": "Social 15% : Alone 85%",
       "recharge": "Complete silence, nature walks, meditation, creative activities, digital detox",
-      "compatible": ["Energy Saver", "Emergency Mode"]
+      "compatible": [
+        "Energy Saver",
+        "Emergency Mode"
+      ]
     }
   },
   "result": {
@@ -136,7 +148,8 @@
     "hspTest": "HSP Test",
     "stressCheck": "Stress Check",
     "emotionTemp": "Emotion Temperature",
-    "emotionIceberg": "Emotion Iceberg"
+    "emotionIceberg": "Emotion Iceberg",
+    "burnoutTest": "Burnout Test"
   },
   "share": {
     "twitter": "𝕏 Share",

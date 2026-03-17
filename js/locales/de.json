@@ -97,28 +97,40 @@
       "desc": "Du bist ein soziales Kraftwerk, das sich durch Menschen auflädt! Gespräche und Treffen sind dein Treibstoff — Alleinsein entlädt dich eher.",
       "ratio": "Sozial 70% : Allein 30%",
       "recharge": "Lebhafte Gespräche, Partys, Gruppenaktivitäten, neue Leute kennenlernen",
-      "compatible": ["Aufladbarer Akku", "Solarpanel"]
+      "compatible": [
+        "Aufladbarer Akku",
+        "Solarpanel"
+      ]
     },
     "rechargeable": {
       "name": "🔋 Aufladbarer Akku",
       "desc": "Du findest die perfekte Balance zwischen Geselligkeit und Alleinsein! Du verwaltest deine Energie flexibel je nach Situation.",
       "ratio": "Sozial 50% : Allein 50%",
       "recharge": "Kleine Treffen, tiefe Gespräche mit engen Freunden, Café-Zeit, Outdoor-Aktivitäten",
-      "compatible": ["Solarpanel", "Energiesparmodus"]
+      "compatible": [
+        "Solarpanel",
+        "Energiesparmodus"
+      ]
     },
     "energySaver": {
       "name": "🔌 Energiesparmodus",
       "desc": "Ein effizienter Introvertierter, der seine Energie weise verwaltet! Du bevorzugst tiefe Verbindungen mit wenigen und lädst wirklich in der Einsamkeit auf.",
       "ratio": "Sozial 30% : Allein 70%",
       "recharge": "Lesen, Alleinspaziergänge, Musik, Hobbys, ruhige Orte",
-      "compatible": ["Aufladbarer Akku", "Notfallmodus"]
+      "compatible": [
+        "Aufladbarer Akku",
+        "Notfallmodus"
+      ]
     },
     "emergency": {
       "name": "🪫 Notfallmodus",
       "desc": "Ein ultrasensibler Energiedetektor! Soziale Situationen entladen deinen Akku schnell, und bedeutungsvolle Alleinzeit ist absolut unverzichtbar.",
       "ratio": "Sozial 15% : Allein 85%",
       "recharge": "Völlige Stille, Spaziergänge in der Natur, Meditation, kreative Aktivitäten, digitale Entgiftung",
-      "compatible": ["Energiesparmodus", "Notfallmodus"]
+      "compatible": [
+        "Energiesparmodus",
+        "Notfallmodus"
+      ]
     }
   },
   "result": {
@@ -136,7 +148,8 @@
     "hspTest": "HSP-Test",
     "stressCheck": "Stress-Check",
     "emotionTemp": "Emotionstemperatur",
-    "emotionIceberg": "Emotions-Eisberg"
+    "emotionIceberg": "Emotions-Eisberg",
+    "burnoutTest": "Burnout-Test"
   },
   "share": {
     "twitter": "𝕏 Teilen",
