@@ -150,7 +150,8 @@
     "emotionTemp": "Emotion Temperature",
     "emotionIceberg": "Emotion Iceberg",
     "burnoutTest": "Burnout Test",
-    "stressResponse": "Stress Response"
+    "stressResponse": "Stress Response",
+    "anxietyType": "Anxiety Type"
   },
   "share": {
     "twitter": "𝕏 Share",

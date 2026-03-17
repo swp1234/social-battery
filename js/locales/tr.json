@@ -150,7 +150,8 @@
     "emotionTemp": "Duygu Sıcaklığı",
     "emotionIceberg": "Duygu Buzdağı",
     "burnoutTest": "Tükenmişlik Testi",
-    "stressResponse": "Stres Tepkisi"
+    "stressResponse": "Stres Tepkisi",
+    "anxietyType": "Kaygı Tipi"
   },
   "share": {
     "twitter": "𝕏 Paylaş",

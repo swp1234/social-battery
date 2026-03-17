@@ -150,7 +150,8 @@
     "emotionTemp": "Suhu Emosi",
     "emotionIceberg": "Gunung Es Emosi",
     "burnoutTest": "Tes Burnout",
-    "stressResponse": "Respons Stres"
+    "stressResponse": "Respons Stres",
+    "anxietyType": "Tipe Kecemasan"
   },
   "share": {
     "twitter": "𝕏 Bagikan",

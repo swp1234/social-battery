@@ -150,7 +150,8 @@
     "emotionTemp": "Температура эмоций",
     "emotionIceberg": "Айсберг эмоций",
     "burnoutTest": "Тест на выгорание",
-    "stressResponse": "Стресс-реакция"
+    "stressResponse": "Стресс-реакция",
+    "anxietyType": "Тип тревожности"
   },
   "share": {
     "twitter": "𝕏 Поделиться",

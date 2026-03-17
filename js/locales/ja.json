@@ -150,7 +150,8 @@
     "emotionTemp": "感情温度",
     "emotionIceberg": "感情の氷山",
     "burnoutTest": "バーンアウトテスト",
-    "stressResponse": "ストレス反応"
+    "stressResponse": "ストレス反応",
+    "anxietyType": "不安タイプ"
   },
   "share": {
     "twitter": "𝕏 シェア",

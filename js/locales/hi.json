@@ -150,7 +150,8 @@
     "emotionTemp": "भावना तापमान",
     "emotionIceberg": "भावना हिमशैल",
     "burnoutTest": "बर्नआउट टेस्ट",
-    "stressResponse": "तनाव प्रतिक्रिया"
+    "stressResponse": "तनाव प्रतिक्रिया",
+    "anxietyType": "चिंता प्रकार"
   },
   "share": {
     "twitter": "𝕏 शेयर",
