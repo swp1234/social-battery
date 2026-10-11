@@ -357,7 +357,7 @@
   });
 
   // AdSense
-  try { (adsbygoogle = window.adsbygoogle || []).push({}); } catch(e) {}
+  try {  } catch(e) {}
 
   } catch (e) {
     console.error('App init error:', e);
