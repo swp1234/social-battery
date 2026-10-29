@@ -142,7 +142,8 @@
     "compatibleTypes": "Mejores Combinaciones",
     "retake": "⚡ Intentar de Nuevo",
     "moreTests": "Explorar más tests",
-    "percentileStat": "Solo el <strong>{percent}%</strong> comparten tu nivel de batería social"
+    "percentileStat": "Tu nivel de batería refleja tus patrones de energía en 12 escenarios sociales.",
+    "profileStat": "Tu nivel de batería refleja tus patrones de energía en 12 escenarios sociales."
   },
   "related": {
     "hspTest": "Test HSP",
@@ -165,7 +166,7 @@
     "result2": "🔋 Recargable -- Adaptador Equilibrado (51-75%)",
     "result3": "🔌 Ahorro de Energía -- Introvertido Eficiente (26-50%)",
     "result4": "🪫 Modo Emergencia -- Ultra-Sensible (0-25%)",
-    "socialProof": "1,980+ personas verificaron su batería social"
+    "socialProof": "12 escenarios · Reflexión 100% privada"
   },
   "about": {
     "toggle": "Sobre el test de batería social",

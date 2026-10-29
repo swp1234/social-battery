@@ -36,6 +36,24 @@
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
+  
+  function preserveLanguageLinks() {
+    try {
+      const params = new URLSearchParams(window.location.search);
+      const lang = params.get('lang');
+      if (!lang) return;
+      document.querySelectorAll('a[href^="/"]').forEach(function(a) {
+        const href = a.getAttribute('href');
+        if (!href) return;
+        const url = new URL(href, window.location.origin);
+        if (!url.searchParams.has('lang')) {
+          url.searchParams.set('lang', lang);
+          a.setAttribute('href', url.pathname + url.search + url.hash);
+        }
+      });
+    } catch (e) {}
+  }
+
   // ===== Theme =====
   function initTheme() {
     const saved = localStorage.getItem('social-battery-theme');
@@ -269,13 +287,13 @@
     compatHTML += '</div>';
     compatCard.innerHTML = compatHTML;
     compatCards.appendChild(compatCard);
+    preserveLanguageLinks();
 
-    // Percentile stat
+    // Profile reflection stat
     const pStat = document.getElementById('percentile-stat');
     if (pStat) {
-        const pct = 8 + Math.floor(Math.random() * 20);
-        const template = i18n?.t('result.percentileStat') || 'Only <strong>{percent}%</strong> share your social battery level';
-        pStat.innerHTML = template.replace('{percent}', pct);
+        const text = i18n?.t('result.profileStat') || i18n?.t('result.percentileStat') || 'Your battery score reflects personal energy patterns across 12 social scenarios.';
+        pStat.textContent = text;
     }
 
     // GA4
@@ -344,6 +362,7 @@
       await i18n.loadTranslations(i18n.currentLang);
       i18n.updateUI();
       updateLangHighlight();
+      preserveLanguageLinks();
     } catch (e) {
       // Fallback
     }

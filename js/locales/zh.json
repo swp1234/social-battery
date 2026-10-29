@@ -142,7 +142,8 @@
     "compatibleTypes": "最佳搭配",
     "retake": "⚡ 重新测试",
     "moreTests": "探索更多测试",
-    "percentileStat": "仅 <strong>{percent}%</strong> 的参与者拥有与你相同的社交电量"
+    "percentileStat": "你的电量分数反映了在12个社交情境下的个人能量反应模式。",
+    "profileStat": "你的电量分数反映了在12个社交情境下的个人能量反应模式。"
   },
   "related": {
     "hspTest": "HSP测试",
@@ -165,7 +166,7 @@
     "result2": "🔋 充电电池 -- 平衡适应型 (51-75%)",
     "result3": "🔌 节能模式 -- 高效内向型 (26-50%)",
     "result4": "🪫 紧急模式 -- 超敏感型 (0-25%)",
-    "socialProof": "1,980+人已检测了他们的社交电量"
+    "socialProof": "12个情境模拟 · 100%私密自省"
   },
   "about": {
     "toggle": "关于社交电量测试",
